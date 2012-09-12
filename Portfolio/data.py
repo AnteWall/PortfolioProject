@@ -34,16 +34,21 @@ def get_techniques(db):
     tech_list.sort()
     return tech_list
 
-def get_techniques_stats(db):
-    """techniques = get_techniques(db)
-    tech_stats = {} 
-    for tech in techniques:
+def get_technique_stats(db):
+    tech_dict = {}
+    tech_list = []
+    techniques = get_techniques(db)
+    for _tech in techniques:
         for x in range(get_project_count(db)):
-            if tech in db[x]['techniques_used']:
-                tech_stats.update([{tech:db[x]['project_no']}])
-                tech_stats.update([{tech:db[x]['course_id']}])
- 
-    return tech_stats"""
-
+            if _tech in db[x]['techniques_used']:
+                project_dict = {}
+                project_dict['id'] = db[x]['project_no']
+                project_dict['name'] = db[x]['project_name']
+                tech_list.append(project_dict)
+        tech_list = sorted(tech_list, key=lambda x: x['name'])
+        tech_dict[_tech] = tech_list
+        tech_list = []
+    return tech_dict
+    
 db = load('data.json')
-print(get_techniques_stats(db))
+print(get_technique_stats(db))
