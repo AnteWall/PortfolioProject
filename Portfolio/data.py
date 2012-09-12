@@ -22,7 +22,30 @@ def get_project_count(db):
 
 
 def search(db, sort_by=u'start_date',sort_order=u'desc',techniques=None,search=None,search_fields=None):
-    pass
+    search_list = []
+    proj_count = get_project_count(db)
+    
+    if search == None and techniques == None and search_fields == None:
+        for x in range(proj_count):
+            search_list.append(db[x])
+    elif search == None and techniques != None:
+        for x in range(proj_count):
+            for tech in db[x]['techniques_used']:
+                if tech == techniques[0]:
+                    search_list.append(db[x])
+                    print(tech)
+    elif search != None:
+        for x in range(proj_count):
+            for fields in db[x]:
+                if db[x][fields] == search:
+                    search_list.append(db[x])
+    
+    if sort_order == 'desc':
+        search_list = sorted(search_list, key=lambda x: x[sort_by],reverse=True)
+    elif sort_order == 'asc':
+        search_list = sorted(search_list, key=lambda x: x[sort_by])
+    print(len(search_list))
+    return search_list
 
 def get_techniques(db):
     """Fetches a list of all the techniques from the specified project list and sorts them"""
@@ -51,4 +74,4 @@ def get_technique_stats(db):
     return tech_dict
     
 db = load('data.json')
-print(get_technique_stats(db))
+search(db,techniques =[u'csv'])
