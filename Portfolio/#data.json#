@@ -7,8 +7,7 @@
     "group_size": 2,
     "academic_credits": "WUT?",
     "lulz_had": "many",
-    "external_link": "YY",
-    "small_image": "X",
+    "external_link": "YY",    "small_image": "X",
     "techniques_used": [
       "python"
     ],
@@ -32,7 +31,7 @@
       "c++",
       "csv",
       "python"
-    ], 
+    ],
     "project_name": "NEJ",
     "course_id": "TDP003",
     "end_date": "2009-09-08",

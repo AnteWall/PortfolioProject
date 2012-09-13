@@ -1,6 +1,9 @@
+#!/usr/bin/python
+# -*- coding: utf-8 -*-
 import json
 
 def load(filename):
+    """Loads JSON formatted project data from a file and returns a list."""
     try:
         data = []
         json_data=open(filename)
@@ -12,16 +15,19 @@ def load(filename):
         pass
 
 def get_project(db,id):
+    """Fetches the project with the specified id from the specified list."""
     for x in range(get_project_count(db)):
         if db[x]['project_no'] == id:
             return db[x]
 
 
 def get_project_count(db):
+    """ Retrieves the number of projects in a project list."""
     return len(db)
 
 
 def search(db, sort_by=u'start_date',sort_order=u'desc',techniques=None,search=None,search_fields=None):
+    """ Fetches and sorts projects matching criteria from the specified list."""
     search_list = []
     proj_count = get_project_count(db)
     
@@ -58,6 +64,7 @@ def get_techniques(db):
     return tech_list
 
 def get_technique_stats(db):
+    """Collects and returns statistics for all techniques in the specified project list."""
     tech_dict = {}
     tech_list = []
     techniques = get_techniques(db)
@@ -74,4 +81,4 @@ def get_technique_stats(db):
     return tech_dict
     
 db = load('data.json')
-search(db,techniques =[u'csv'])
+search(db,sort_by='end_date',search='okänt',search_fields=['project_no','project_name','course_name'])
