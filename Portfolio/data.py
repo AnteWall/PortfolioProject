@@ -1,6 +1,6 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
-import json
+import json,unicodedata
 
 def load(filename):
     """Loads JSON formatted project data from a file and returns a list."""
@@ -11,8 +11,8 @@ def load(filename):
         json_data.close()
         return data
     except IOError:
-       # print("File does not exist!")
-        pass
+        #If trying to load that does not exist, display error message
+        print("File does not exist :" + filename)
 
 def get_project(db,id):
     """Fetches the project with the specified id from the specified list."""
@@ -28,29 +28,44 @@ def get_project_count(db):
 
 def search(db, sort_by=u'start_date',sort_order=u'desc',techniques=None,search=None,search_fields=None):
     """ Fetches and sorts projects matching criteria from the specified list."""
+    #If search is filled with a value, unicode it so that special charachters works
+    if search != None:
+        search = unicode(search, 'utf-8')
     search_list = []
+    #Get number of projects in database
     proj_count = get_project_count(db)
     
+    #If nothing is set, display all project in database
     if search == None and techniques == None and search_fields == None:
         for x in range(proj_count):
             search_list.append(db[x])
+    #if searching by techniques
     elif search == None and techniques != None:
         for x in range(proj_count):
             for tech in db[x]['techniques_used']:
                 if tech == techniques[0]:
                     search_list.append(db[x])
-                    print(tech)
+    #if searching by search and with special search fields
+    elif search != None and search_fields != None:
+        for x in range(proj_count):
+            for z in search_fields:
+                try:
+                    if db[x][z].lower() == search.lower():
+                        search_list.append(db[x])
+                except AttributeError:
+                    if db[x][z] == search:
+                        search_list.append(db[x])
+    #If only search parameter is set
     elif search != None:
         for x in range(proj_count):
             for fields in db[x]:
                 if db[x][fields] == search:
                     search_list.append(db[x])
-    
+    #Sorts the fields by descending or ascending before returning it
     if sort_order == 'desc':
         search_list = sorted(search_list, key=lambda x: x[sort_by],reverse=True)
     elif sort_order == 'asc':
         search_list = sorted(search_list, key=lambda x: x[sort_by])
-    print(len(search_list))
     return search_list
 
 def get_techniques(db):
@@ -79,6 +94,3 @@ def get_technique_stats(db):
         tech_dict[_tech] = tech_list
         tech_list = []
     return tech_dict
-    
-db = load('data.json')
-search(db,sort_by='end_date',search='okänt',search_fields=['project_no','project_name','course_name'])
