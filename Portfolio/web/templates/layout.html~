@@ -1,0 +1,38 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="stylesheet" type="text/css" href="static/style.css"/>
+<title>Titel</title>
+</head>
+<body>
+<div id="header">
+  <ul id="nav">
+    <a href="/"><li>Home</li></a>
+    <a href="/list"><li>List All Projects</li></a>
+    <a href="/techniques"><li>List Techniques</li></a>
+    <a href="/contact"><li>Contact</li></a>
+  </ul>
+</div>
+<div id="header_edge">
+
+</div>
+<div id="content">
+  <div class="item">
+    <div class="info">
+      <p class="project_name">ProjectNamn 1</p>
+      <p class="date">Last Updated: 2012-08-02</p>
+      <p class="short_desc">Här är en liten kort beskrivning om projektet!!!!</p>
+    </div>
+    <div class="img">
+      <img width="250px" height="170px" src="http://www.picgifs.com/graphics/c/cute/graphics-cute-988928.jpg" alt="Cute!!!"
+    </div>
+    <div class="info_footer">
+      <a href="/portfolio/id"><p>Read More</p></a>
+      <a class="download_now" href="/portfolio/id/download"><p>Download Now</p></a>
+    </div>
+  </div>
+</div>
+</body>
+</html>

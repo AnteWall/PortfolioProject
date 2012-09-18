@@ -2,6 +2,9 @@
 # -*- coding: utf-8 -*-
 import json,unicodedata
 
+def init():
+    return load("data.json")
+
 def load(filename):
     """Loads JSON formatted project data from a file and returns a list."""
     try:

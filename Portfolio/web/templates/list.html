@@ -1,10 +1,11 @@
 {% extends "layout.html" %}
 {% block content %}
+{% for projects in dataB %}
 <div class="item">
   <div class="info">
-    <p class="project_name">Ante Wall</p>
-    <p class="date">1993-01-10</p>
-    <p class="short_desc">Detta är ante! :D</p>
+    <p class="project_name">{{ projects['project_name'] }} </p>
+    <p class="date">{{ projects['end_date'] }}</p>
+    <p class="short_desc">{{ projects['short_description'] }}</p>
   </div>
   <div class="img">
     <img width="250px" height="170px" src="http://www.picgifs.com/graphics/c/cute/graphics-cute-988928.jpg" alt="Cute!!!"/>
@@ -14,5 +15,6 @@
     <a class="download_now" href="/portfolio/id/download"><p>Download Now</p></a>
   </div>
 </div>
+{% endfor %}
 {% endblock %}
 
