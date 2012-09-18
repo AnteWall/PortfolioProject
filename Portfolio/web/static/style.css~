@@ -1,0 +1,11 @@
+*{
+    padding:0;
+    margin:0;
+    border:0;
+}
+#header_edge{
+    background-image:url(../images/edge.png)
+    background-repeat:repeat-y;
+    height:44px;
+    width:1199px;
+}

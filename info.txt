@@ -1,0 +1,3 @@
+Små bilder ska vara storlek:
+    Width:250px
+    Height:170px
