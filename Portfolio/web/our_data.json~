@@ -1,0 +1,42 @@
+[
+  {
+    "start_date": "2009-09-05",
+    "short_description": "This project we made sometime when we were drunk.",
+    "course_name": "Something we dont remember",
+    "long_description": "This is the long description that just keeps on iterate itself, even thou its smell wierd and dosent really do anything.",
+    "group_size": 2,
+    "academic_credits": "MVG!!! WOHO!",
+    "lulz_had": "to many, to many lol",
+    "external_link": "http://www.antewall.se",
+    "small_image": "this_image.png",
+    "techniques_used": [
+      "python"
+    ],
+    "project_name": "Dantes Project",
+    "course_id": "TDP007",
+    "end_date": "2009-10-06",
+    "project_no": 1,
+    "big_image": "large_image.png"
+  },
+  {
+    "start_date": "2009-09-05",
+    "short_description": "This project is awsome, you should not check it out",
+    "course_name": "Something we do remember",
+    "long_description": "This is the long description that just keeps on iterate itself, even thou its smell wierd and dosent really do anything.",
+    "group_size": 2,
+    "academic_credits": "IG+",
+    "lulz_had": "lolz was made",
+    "external_link": "http://www.fetpanda.se",
+    "small_image": "this_image2.png",
+    "techniques_used": [
+      "python",
+      "c++",
+      "PHP"
+    ],
+    "project_name": "Not Dantes Project",
+    "course_id": "TDP002",
+    "end_date": "2009-10-09",
+    "project_no": 1,
+    "big_image": "large_image2.png"
+  },
+]

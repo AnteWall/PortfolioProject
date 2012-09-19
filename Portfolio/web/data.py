@@ -3,7 +3,7 @@
 import json,unicodedata
 
 def init():
-    return load("data.json")
+    return load("our_data.json")
 
 def load(filename):
     """Loads JSON formatted project data from a file and returns a list."""

@@ -1,13 +1,25 @@
+/*-----------------------------------------------
+----Author: Ante Wall & Dan Andréasson       ----
+----Created: 18 September 2012               ----
+----                                         ----
+----Copyright (c) Ante Wall & Dan Andréasson ----
+-----------------------------------------------*/
+
+/* Main Styles */
 *{
     padding:0;
     margin:0;
     border:0;
 }
 body{
-    background-color:#696969;
+    background-color:#FFF;
+    background-image:url("images/bg.png");
 }
+
+/* Header Styles */
 #header{
     background-color:#2D2C2C;
+
     height:100px;
     width:100%;
     z-index:2;
@@ -20,14 +32,16 @@ body{
     z-index:100;
 }
 
+/* Content Styles */
+
 #content{
     position:relative;
     width:700px;
     height:800px;
     margin:auto;
     margin-top:-30px;
-    background-color:#545454;
-    border: 1px solid #000;
+    background-color:#f7f7f7;
+    border: 1px solid #c7c7c7;
 }
 #header ul#nav{
     width:600px;
@@ -37,7 +51,7 @@ body{
     list-style-type:none;
 }
 #header ul#nav a li{
-    color:#cfcfcf;
+    color:orange;
     width:150px;
     height:50px;
     text-decoration:none;
@@ -51,49 +65,75 @@ body{
     margin:49px;
     margin-bottom:0;
     height:210px;
-    background-color:#767676;
-    border:1px solid #000;
+    background-color:#FFF;
+    border:1px solid #c7c7c7;
 }
-.item .info{
+.item_home{
+    float:left;
+    width:600px;
+    margin:49px;
+    margin-bottom:0;
+    height:260px;
+    background-color:#FFF;
+    border:1px solid #c7c7c7;
+}
+.info{
     width:300px;
     height:150px;
     margin:5px;
     padding:5px;
     float:left
 }
-.item .img{
+.img{
     margin:4px;
     float:right;
     width:250px;
     height:170px;
-    border:1px solid #000;
+    border:1px solid #c7c7c7;
 }
-.item .info p.project_name{
+.img_home{
+    margin:4px;
+    float:right;
+    width:250px;
+    height:250px;
+    border:1px solid #c7c7c7;
+}
+.info p.project_name{
     font-size:18pt;
+    color:orange;
 }
-.item .info p.short_desc{
+.info p.short_desc{
     font-size:11pt;
 }
-.item .info p.date{
+.info p.date{
     font-size:12pt;
 }
-.item .info_footer{
+.info_footer{
    /* margin-left:-345px;*/
     float:left;
     width:600px;
     height:29px;
-    background-color:#676767;
-    border-top:1px solid #000;
+    background-color:#2D2C2C;
+    border-top:1px solid #c7c7c7;
 }
-.item  .info_footer a{
+.info_footer a{
     float:left;
     padding-left:10px;
     line-height:30px;
     font-size:12pt;
     text-decoration:none;
-    color:#fff;
+    color:orange;
     width:130px;
 }
-.item  .info_footer a.download_now{
+.info_footer a.download_now{
+    padding-right:10px;
+    text-align:right;
     float:right;
+}
+
+/* Latest Project Styles  */
+#last_proj{
+    width:200px;
+    height:500px;
+    background-color:#000;
 }
