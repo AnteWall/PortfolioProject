@@ -23,6 +23,17 @@ def home_page():
 def list_page():
     db = data.init()
     return render_template("list.html",dataB = db)
+
+@app.route("/portfolio/<id>")
+def id_page(id):
+    db = data.init()
+    project = data.get_project(db,id)
+    return render_template("portfolio.html",dataB = project)
+
+@app.errorhandler(404)
+def error_404(e):
+    return render_template("404.html"),404
+
 if __name__ == "__main__":
     app.debug = True
     app.run()

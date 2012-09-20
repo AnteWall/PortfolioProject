@@ -1,0 +1,20 @@
+{% extends "layout.html" %}
+{% block css_folder %}
+../static/style.css
+{% endblock %}
+{% block content %}
+
+<div class="large_item">
+  <div class="large_info">
+    <p class="project_name">{{ dataB['project_name'] }} </p>
+    <p class="date">{{ dataB['end_date'] }}</p>
+    <p class="short_desc">{{ dataB['long_description'] }}</p>
+  </div>
+  <div class="info_footer">
+    <a class="download_now" href="/portfolio/id/download"><p>Download Now</p></a>
+  </div>
+</div>
+
+{% endblock %}
+
+

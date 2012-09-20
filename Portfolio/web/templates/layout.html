@@ -3,7 +3,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<link rel="stylesheet" type="text/css" href="static/style.css"/>
+<link rel="stylesheet" type="text/css" href="{% block css_folder %}static/style.css{% endblock %}"/>
 <title>Titel</title>
 </head>
 <body>
@@ -17,13 +17,22 @@
 </div>
 <div id="header_edge">
 </div>
-<div id="content">
-{% block content %}
-{% endblock %}
-
+<div id="main_content">
+<div id="last_proj_hidden">
 </div>
+  <div id="content">
+  {% block content %}
+  {% endblock %}
+  
+  </div>
 <div id="last_proj">
-
+  <div id="last_proj_subject">Last Updated</div>
+  <div class="last_proj_item"></div>
+  <div class="last_proj_item"></div>
+  <div class="last_proj_item"></div>
+  <div class="last_proj_item"></div>
 </div>
+</div>
+
 </body>
 </html>

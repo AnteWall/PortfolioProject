@@ -19,9 +19,11 @@ def load(filename):
 
 def get_project(db,id):
     """Fetches the project with the specified id from the specified list."""
+    id = int(id)
     for x in range(get_project_count(db)):
         if db[x]['project_no'] == id:
-            return db[x]
+            return db[x] 
+    return None
 
 
 def get_project_count(db):
