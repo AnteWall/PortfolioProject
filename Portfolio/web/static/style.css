@@ -76,6 +76,7 @@ body{
     width:600px;
     margin:49px;
     margin-bottom:0;
+    margin-top:20px;
     height:210px;
     background-color:#FFF;
     border:1px solid #c7c7c7;
@@ -180,4 +181,55 @@ p.date{
     margin:5px auto 5px auto;
     background-color:#FFF;
     border:1px solid #c7c7c7;
+}
+
+/* Search Fields Styles */
+#search_field{
+    margin-top:25px;
+    width:100%;
+    min-height:60px;
+}
+#search_field input{
+    padding:5px;
+    margin:20px 20px 20px 49px;
+    height:20px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -o-border-radius: 5px;
+    -moz-box-shadow: 0px 0px 5px #a7a7a7;
+    -webkit-box-shadow: 0px 0px 5px #a7a7a7;
+    box-shadow: 0px 0px 5px #a7a7a7;
+}
+
+fieldset#adv{
+    background-color:#FFF;
+    border-bottom:1px solid #c7c7c7;
+    border-top:1px solid #c7c7c7;
+}
+fieldset#techniques{
+    width:100px;
+    padding-left:10px;
+    float:left;
+}
+fieldset#sort_by{
+    width:100px;
+    padding-left:10px;
+    float:left;
+}
+fieldset#techniques input[type=checkbox],
+fieldset#sort_by input[type=radio]{
+    margin:5px;
+    height:13px;
+    width:13px;
+}
+fieldset#techniques label,
+fieldset#sort_by label{
+    margin:-5px;
+}
+fieldset label{
+    margin:5px;
+}
+.search_subject{
+    font-size:14pt;
+    font-weight:bold;
 }

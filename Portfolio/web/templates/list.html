@@ -1,5 +1,29 @@
 {% extends "layout.html" %}
 {% block content %}
+<div id="search_field">
+<form action="" method="post">
+  <fieldset>
+    <label for="search">Sök:</label>
+    <input type="text" id="search" value="Sök" name="search"/>
+  </fieldset>
+  <fieldset id="adv">
+    <fieldset id="techniques">
+      <p class="search_subject">Techniques</p>
+      {% for x in tech %}
+      <input type="checkbox" name="{{x}}" value="{{x}}" />
+      <label for="{{x}}">{{x}}</label><br/>
+      {% endfor %}
+    </fieldset>
+    <fieldset id="sort_by">
+      <p class="search_subject">Sort By</p>
+      <input type="radio" id="sort_desc" name="sort_by" value="desc"/>
+      <label for="sort_desc">Desc</label><br/>
+      <input type="radio" id="asc" name="sort_by" value="asc"/>
+      <label for="sort_asc">Asc</label>
+    </fieldset>
+  </fieldset>
+</form>
+</div>
 {% for projects in dataB %}
 <div class="item">
   <div class="info">
