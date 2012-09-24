@@ -30,6 +30,14 @@ def get_project_count(db):
     """ Retrieves the number of projects in a project list."""
     return len(db)
 
+def get_fields(db):
+    """Returns all fields in database"""
+    returnList = []
+    for i in range(get_project_count(db)):
+        for a in db[i]:
+            if a.replace("_", " ") not in returnList:
+                returnList.append(a.replace("_", " "))
+    return returnList
 
 def search(db, sort_by=u'start_date',sort_order=u'desc',techniques=None,search=None,search_fields=None):
     """ Fetches and sorts projects matching criteria from the specified list."""

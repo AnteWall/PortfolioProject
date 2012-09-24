@@ -1,11 +1,14 @@
 {% extends "layout.html" %}
 {% block content %}
+<!-- Advanced Search Field -->
 <div id="search_field">
+<button type="button" id="adv_search">Advanced Search</button>
 <form action="" method="post">
   <fieldset>
     <label for="search">Sök:</label>
     <input type="text" id="search" value="Sök" name="search"/>
   </fieldset>
+
   <fieldset id="adv">
     <fieldset id="techniques">
       <p class="search_subject">Techniques</p>
@@ -14,16 +17,32 @@
       <label for="{{x}}">{{x}}</label><br/>
       {% endfor %}
     </fieldset>
-    <fieldset id="sort_by">
-      <p class="search_subject">Sort By</p>
+    <fieldset id="sort_order">
+      <p class="search_subject">Sort Order</p>
       <input type="radio" id="sort_desc" name="sort_by" value="desc"/>
       <label for="sort_desc">Desc</label><br/>
       <input type="radio" id="asc" name="sort_by" value="asc"/>
       <label for="sort_asc">Asc</label>
     </fieldset>
+    <fieldset id="sort_by">
+     <p class="search_subject">Sort Order</p>
+      <select>
+	{% for y in _fields %}
+	<option value="{{y}}">{{y}}</option>
+	{% endfor %}
+      </select>
+    </fieldset>
+    <fieldset id="sel_field">
+     <p class="search_subject">Search Fields</p>
+      {% for z in _fields %}
+      <label for="{{z}}">{{z}}<input type="checkbox" name="{{z}}" value="{{z}}"/>
+      </label>
+      {% endfor %}
+    </fieldset>
   </fieldset>
 </form>
 </div>
+<!-- Advanced Search Field Ends -->
 {% for projects in dataB %}
 <div class="item">
   <div class="info">

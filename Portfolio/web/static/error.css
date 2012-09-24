@@ -1,0 +1,20 @@
+/*-----------------------------------------------
+----Author: Ante Wall & Dan Andréasson       ----
+----Created: 18 September 2012               ----
+----                                         ----
+----Copyright (c) Ante Wall & Dan Andréasson ----
+-----------------------------------------------*/
+
+/* Main Styles */
+*{
+    padding:0;
+    margin:0;
+    border:0;
+}
+body{
+    background-color:#FFF;
+}
+#image{
+    position:absolute;
+    bottom:0px;
+}

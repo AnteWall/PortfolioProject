@@ -23,7 +23,8 @@ def home_page():
 def list_page():
     db = data.init()
     techniques = data.get_techniques(db)
-    return render_template("list.html",dataB = db,tech = techniques)
+    fields = data.get_fields(db)
+    return render_template("list.html",dataB = db,tech = techniques,_fields = fields)
 
 @app.route("/portfolio/<id>")
 def id_page(id):

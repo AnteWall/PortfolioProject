@@ -41,13 +41,11 @@ body{
     float:left;
     position:relative;
     width:700px;
-    min-height:800px;
+    height:800px;
     margin:auto;
     margin-top:-30px;
-    margin-bottom:30px;
     background-color:#f7f7f7;
     border: 1px solid #c7c7c7;
-    padding-bottom:20px;
 }
 #header ul#nav{
     width:600px;
@@ -191,7 +189,7 @@ p.date{
     width:100%;
     min-height:60px;
 }
-#search_field input#search{
+#search_field input{
     padding:5px;
     margin:20px 20px 20px 49px;
     height:20px;
@@ -204,45 +202,29 @@ p.date{
 }
 
 fieldset#adv{
-    display:none;
     background-color:#FFF;
     border-bottom:1px solid #c7c7c7;
     border-top:1px solid #c7c7c7;
 }
-fieldset#techniques,
-fieldset#sort_order,
-fieldset#sort_by{
+fieldset#techniques{
     width:100px;
-    height:100px;
     padding-left:10px;
     float:left;
 }
-fieldset#sel_field{
-    width:320px;
+fieldset#sort_by{
+    width:100px;
     padding-left:10px;
-    margin-left:30px;
     float:left;
 }
 fieldset#techniques input[type=checkbox],
-fieldset#sort_order input[type=radio]{
-    position:relative;
+fieldset#sort_by input[type=radio]{
     margin:5px;
     height:13px;
     width:13px;
 }
-fieldset#sel_field input[type=checkbox]{
-    position:relative;
-    float:right;
-}
 fieldset#techniques label,
 fieldset#sort_by label{
     margin:-5px;
-}
-fieldset#sel_field label{
-    min-width:120px;
-    float:left;
-    display:block;
-    height:30px;
 }
 fieldset label{
     margin:5px;
