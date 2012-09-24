@@ -49,7 +49,7 @@ def search(db, sort_by=u'start_date',sort_order=u'desc',techniques=None,search=N
     proj_count = get_project_count(db)
     
     #If nothing is set, display all project in database
-    if search == None and techniques == None and search_fields == None:
+    if (search == None or search == "") and techniques == None and search_fields == None:
         for x in range(proj_count):
             search_list.append(db[x])
     #if searching by techniques
@@ -72,6 +72,7 @@ def search(db, sort_by=u'start_date',sort_order=u'desc',techniques=None,search=N
     elif search != None:
         for x in range(proj_count):
             for fields in db[x]:
+                print("--------- "+ str(db[x][fields]))
                 if db[x][fields] == search:
                     search_list.append(db[x])
     #Sorts the fields by descending or ascending before returning it

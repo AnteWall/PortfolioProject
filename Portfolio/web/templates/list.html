@@ -2,13 +2,14 @@
 {% block content %}
 <!-- Advanced Search Field -->
 <div id="search_field">
-<button type="button" id="adv_search">Advanced Search</button>
-<form action="" method="post">
-  <fieldset>
-    <label for="search">Sök:</label>
-    <input type="text" id="search" value="Sök" name="search"/>
-  </fieldset>
+  <button id="adv_search">Advanced Search</button>
 
+<form action="" method="post">
+  <fieldset id="search">
+    <input type="text" id="search" placeholder="Sök" name="search"/>
+  <input type="submit" value="" name="submit"/>
+
+  </fieldset>
   <fieldset id="adv">
     <fieldset id="techniques">
       <p class="search_subject">Techniques</p>
@@ -27,6 +28,7 @@
     <fieldset id="sort_by">
      <p class="search_subject">Sort Order</p>
       <select>
+	<option value="None">None</option>
 	{% for y in _fields %}
 	<option value="{{y}}">{{y}}</option>
 	{% endfor %}

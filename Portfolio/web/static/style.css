@@ -14,6 +14,7 @@
 body{
     background-color:#FFF;
     background-image:url("images/bg.png");
+    font-size:12pt;
 }
 
 /* Header Styles */
@@ -195,6 +196,7 @@ p.date{
     padding:5px;
     margin:20px 20px 20px 49px;
     height:20px;
+    width:180px;
     -moz-border-radius: 5px;
     -webkit-border-radius: 5px;
     -o-border-radius: 5px;
@@ -219,8 +221,6 @@ fieldset#sort_by{
 }
 fieldset#sel_field{
     width:320px;
-    padding-left:10px;
-    margin-left:30px;
     float:left;
 }
 fieldset#techniques input[type=checkbox],
@@ -250,4 +250,29 @@ fieldset label{
 .search_subject{
     font-size:14pt;
     font-weight:bold;
+}
+button{
+    border:1px solid #c2c2c2;
+    padding:2px;
+    margin-left:50px;
+    cursor:pointer;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -o-border-radius: 3px;
+    -moz-box-shadow: 0px 0px 5px #a7a7a7;
+    -webkit-box-shadow: 0px 0px 5px #a7a7a7;
+    box-shadow: 0px 0px 5px #a7a7a7;
+}
+input[type=submit]{
+    background-image:url("images/search.png");
+    width:25px;
+    height:24px;
+    cursor:pointer;
+    display:block;
+    margin-top:24px;
+    float:right;
+    background-color:rgba(0,0,0,0);
+}
+fieldset#search{
+    width:290px;
 }

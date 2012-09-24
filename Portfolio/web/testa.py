@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-from flask import Flask,render_template
+from flask import Flask,render_template,request
 from jinja2 import Template
 import data
 
@@ -19,11 +19,15 @@ def home_page():
     db = data.init()
     return render_template("home.html", dataB = db)
 
-@app.route("/list")
+@app.route("/list", methods=['GET', 'POST'])
 def list_page():
     db = data.init()
     techniques = data.get_techniques(db)
     fields = data.get_fields(db)
+    if request.method == 'POST':
+        
+        db = data.search(db, search=request.form["search"])
+        print("####################################"+str(db))
     return render_template("list.html",dataB = db,tech = techniques,_fields = fields)
 
 @app.route("/portfolio/<id>")
