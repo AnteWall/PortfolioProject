@@ -41,10 +41,16 @@ def get_fields(db):
 
 def search(db, sort_by=u'start_date',sort_order=u'desc',techniques=None,search=None,search_fields=None):
     """ Fetches and sorts projects matching criteria from the specified list."""
-    #If search is filled with a value, unicode it so that special charachters works
+
+    #If search is filled with a value, unicode it so that special charachters works:
     if search != None:
-        search = unicode(search, 'utf-8')
+        try:
+            search = unicode(search, 'utf-8')
+        except TypeError:
+            pass
+
     search_list = []
+
     #Get number of projects in database
     proj_count = get_project_count(db)
     
@@ -62,25 +68,43 @@ def search(db, sort_by=u'start_date',sort_order=u'desc',techniques=None,search=N
     elif search != None and search_fields != None:
         for x in range(proj_count):
             for z in search_fields:
-                try:
-                    if db[x][z].lower() == search.lower():
-                        search_list.append(db[x])
-                except AttributeError:
-                    if db[x][z] == search:
-                        search_list.append(db[x])
+                if equalIgnoreCase(db[x][z],search):
+                    search_list.append(db[x])
+
     #If only search parameter is set
     elif search != None:
         for x in range(proj_count):
             for fields in db[x]:
-                print("--------- "+ str(db[x][fields]))
-                if db[x][fields] == search:
+                if equalIgnoreCase(search,db[x][fields]):
                     search_list.append(db[x])
+                    break
+
     #Sorts the fields by descending or ascending before returning it
     if sort_order == 'desc':
         search_list = sorted(search_list, key=lambda x: x[sort_by],reverse=True)
     elif sort_order == 'asc':
         search_list = sorted(search_list, key=lambda x: x[sort_by])
     return search_list
+
+def equalIgnoreCase(a, b):
+    """Ignores case sensativiy"""
+    #Try,except if it is Unicode
+    try:
+        a = str(a)
+        b = str(b)
+    except UnicodeEncodeError:
+        pass
+    #Try,except incase a or b is int
+    try:
+        if a.lower() in b.lower():
+            return True
+        else:
+            return False
+    except AttributeError:
+        if a in b:
+            return True
+        else:
+            return False
 
 def get_techniques(db):
     """Fetches a list of all the techniques from the specified project list and sorts them"""

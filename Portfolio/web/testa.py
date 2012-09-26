@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 from flask import Flask,render_template,request
 from jinja2 import Template
-import data
+import data, unicodedata
 
 app = Flask(__name__)
 
@@ -24,10 +24,15 @@ def list_page():
     db = data.init()
     techniques = data.get_techniques(db)
     fields = data.get_fields(db)
+    tech_list = []
     if request.method == 'POST':
-        
-        db = data.search(db, search=request.form["search"])
-        print("####################################"+str(db))
+        for i in data.get_techniques(db):
+            if i == request.form["tech_"+i]:
+                tech_list.append(i)
+                print(i)
+            
+        sort_order = request.form["sort_order"]
+        db = data.search(db, search=request.form["search"],sort_order=sort_order,techniques=tech_list)
     return render_template("list.html",dataB = db,tech = techniques,_fields = fields)
 
 @app.route("/portfolio/<id>")

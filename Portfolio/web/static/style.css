@@ -221,7 +221,7 @@ fieldset#sort_by{
 }
 fieldset#sel_field{
     width:320px;
-    float:left;
+    float:right;
 }
 fieldset#techniques input[type=checkbox],
 fieldset#sort_order input[type=radio]{
