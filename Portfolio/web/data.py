@@ -56,16 +56,21 @@ def search(db, sort_by=u'start_date',sort_order=u'desc',techniques=None,search=N
     
     #If nothing is set, display all project in database
     if (search == None or search == "") and techniques == None and search_fields == None:
+        print("first")
         for x in range(proj_count):
             search_list.append(db[x])
     #if searching by techniques
-    elif search == None and techniques != None:
-        for x in range(proj_count):
-            for tech in db[x]['techniques_used']:
-                if tech == techniques[0]:
-                    search_list.append(db[x])
-    #if searching by search and with special search fields
+    elif techniques != None and (search == None or search == ""):
+        print("######################################")
+        if search == None or search == "":
+            for x in range(proj_count):
+                for tech in db[x]['techniques_used']:
+                    if tech == techniques[0]:
+                        search_list.append(db[x])
+    
+#if searching by search and with special search fields
     elif search != None and search_fields != None:
+        print("third")
         for x in range(proj_count):
             for z in search_fields:
                 if equalIgnoreCase(db[x][z],search):
@@ -73,6 +78,7 @@ def search(db, sort_by=u'start_date',sort_order=u'desc',techniques=None,search=N
 
     #If only search parameter is set
     elif search != None:
+        print("last")
         for x in range(proj_count):
             for fields in db[x]:
                 if equalIgnoreCase(search,db[x][fields]):

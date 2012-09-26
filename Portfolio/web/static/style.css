@@ -16,7 +16,10 @@ body{
     background-image:url("images/bg.png");
     font-size:12pt;
 }
-
+h1{
+    float:left;
+    margin-left:50px;
+}
 /* Header Styles */
 #header{
     background-color:#2D2C2C;
@@ -222,6 +225,11 @@ fieldset#sort_by{
 fieldset#sel_field{
     width:320px;
     float:right;
+}
+fieldset#tech{
+    width:100%;
+    margin-left:50px;
+    float:left;
 }
 fieldset#techniques input[type=checkbox],
 fieldset#sort_order input[type=radio]{

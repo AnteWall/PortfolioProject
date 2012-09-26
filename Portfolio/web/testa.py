@@ -27,13 +27,23 @@ def list_page():
     tech_list = []
     if request.method == 'POST':
         for i in data.get_techniques(db):
-            if i == request.form["tech_"+i]:
-                tech_list.append(i)
-                print(i)
+            try:
+                if i == request.form["tech_"+i]:
+                    tech_list.append(i)
+            except:
+                pass
             
         sort_order = request.form["sort_order"]
         db = data.search(db, search=request.form["search"],sort_order=sort_order,techniques=tech_list)
-    return render_template("list.html",dataB = db,tech = techniques,_fields = fields)
+    return render_template("list.html",dataB = db, _fields = fields)
+
+@app.route("/techniques")
+def list_tech():
+    db = data.init()
+    techs = data.get_techniques(db)
+    print("#####################3"+str(techs))
+    return render_template("list_techniques.html", techniques = techs,dataB = db  )
+
 
 @app.route("/portfolio/<id>")
 def id_page(id):
@@ -47,5 +57,6 @@ def error_404(e):
 
 if __name__ == "__main__":
     app.debug = True
+    app.config['TRAP_BAD_REQUEST_ERRORS'] = True
     app.run()
 

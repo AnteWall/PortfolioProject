@@ -29,7 +29,6 @@
     "external_link": "http://www.fetpanda.se",
     "small_image": "this_image2.png",
     "techniques_used": [
-      "python",
       "c++",
       "PHP"
     ],
@@ -38,5 +37,25 @@
     "end_date": "2009-10-09",
     "project_no": 2,
     "big_image": "large_image2.png"
+  },
+{
+    "start_date": "2009-13-05",
+    "short_description": "Yolo.",
+    "course_name": "Something we dont remember",
+    "long_description": "YOOOOOOOOOOOOOLOOOOOOOOO",
+    "group_size": 2,
+    "academic_credits": "MVG!!! WOHO!",
+    "lulz_had": "to many, to many lol",
+    "external_link": "http://www.antewall.se",
+    "small_image": "this_image.png",
+    "techniques_used": [
+      "python",
+      "c++"
+    ],
+    "project_name": "Dantes Project",
+    "course_id": "TDP007",
+    "end_date": "2009-10-06",
+    "project_no": 1,
+    "big_image": "large_image.png"
   }
 ]

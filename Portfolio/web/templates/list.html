@@ -11,13 +11,6 @@
 
   </fieldset>
   <fieldset id="adv">
-    <fieldset id="techniques">
-      <p class="search_subject">Techniques</p>
-      {% for x in tech %}
-      <input type="checkbox" name="tech_{{x}}" value="{{x}}" />
-      <label for="tech_{{x}}">{{x}}</label><br/>
-      {% endfor %}
-    </fieldset>
     <fieldset id="sort_order">
       <p class="search_subject">Sort Order</p>
       <input type="radio" id="sort_desc" name="sort_order" value="desc" checked/>
@@ -36,10 +29,16 @@
     </fieldset>
     <fieldset id="sel_field">
      <p class="search_subject">Search Fields</p>
-      {% for z in _fields %}
-      <label for="{{z}}">{{z}}<input type="checkbox" name="{{z}}" value="{{z}}"/>
-      </label>
-      {% endfor %}
+     <!---<select id="s1" multiple="multiple">
+       {% for z in _fields %}
+       <option value="field_{{z}}">{{z}}</option>   
+       {% endfor %}
+     </select>-->
+     <select id="s2" multiple="multiple">
+       <option>Low</option>
+       <option selected="selected">Medium</option>
+       <option selected="selected">High</option>
+     </select>
     </fieldset>
   </fieldset>
 </form>
