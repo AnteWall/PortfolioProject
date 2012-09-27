@@ -1,0 +1,32 @@
+Loaded Databasefile: OK
+Initiated databasefile: OK
+Fetched number of projects: OK
+Fetched all fields in database: OK
+Loaded Databasefile: OK
+Initiated databasefile: OK
+Fetched number of projects: OK
+Fetched all techniques: OK
+Loaded Databasefile: OK
+Initiated databasefile: OK
+Fetched number of projects: OK
+Searched database: OK
+Loaded Databasefile: OK
+Initiated databasefile: OK
+Fetched number of projects: OK
+Fetched all fields in database: OK
+Loaded Databasefile: OK
+Initiated databasefile: OK
+Fetched number of projects: OK
+Fetched all techniques: OK
+Loaded Databasefile: OK
+Initiated databasefile: OK
+Fetched number of projects: OK
+Searched database: OK
+Loaded Databasefile: OK
+Initiated databasefile: OK
+Fetched number of projects: OK
+Fetched all fields in database: OK
+Loaded Databasefile: OK
+Initiated databasefile: OK
+Fetched number of projects: OK
+Searched database: OK

@@ -223,8 +223,9 @@ fieldset#sort_by{
     float:left;
 }
 fieldset#sel_field{
+    display: table-column;
     width:320px;
-    float:right;
+    margin-left:30px;
 }
 fieldset#tech{
     width:100%;
@@ -245,12 +246,6 @@ fieldset#sel_field input[type=checkbox]{
 fieldset#techniques label,
 fieldset#sort_by label{
     margin:-5px;
-}
-fieldset#sel_field label{
-    min-width:120px;
-    float:left;
-    display:block;
-    height:30px;
 }
 fieldset label{
     margin:5px;
@@ -283,4 +278,19 @@ input[type=submit]{
 }
 fieldset#search{
     width:290px;
+}
+.multiselect {
+    display: table-column;
+    width:200px;
+    height:130px;
+    overflow:auto;
+}
+ 
+.multiselect label {
+    display:block;
+}
+ 
+.multiselect-on {
+    color:#ffffff;
+    background-color:#797979;
 }

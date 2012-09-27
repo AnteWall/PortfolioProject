@@ -29,16 +29,11 @@
     </fieldset>
     <fieldset id="sel_field">
      <p class="search_subject">Search Fields</p>
-     <!---<select id="s1" multiple="multiple">
-       {% for z in _fields %}
-       <option value="field_{{z}}">{{z}}</option>   
+     <fieldset class="multiselect">
+     {% for z in _fields %}
+       <label><input type="checkbox" name="{{z}}" value="{{z}}" />{{z}}</label>
        {% endfor %}
-     </select>-->
-     <select id="s2" multiple="multiple">
-       <option>Low</option>
-       <option selected="selected">Medium</option>
-       <option selected="selected">High</option>
-     </select>
+     </fieldset>
     </fieldset>
   </fieldset>
 </form>

@@ -3,7 +3,10 @@
 import json,unicodedata
 
 def init():
-    return load("our_data.json")
+    db = load("our_data.json")
+    errorCode = 0
+    write_log(errorCode, "Initiated databasefile:")
+    return db
 
 def load(filename):
     """Loads JSON formatted project data from a file and returns a list."""
@@ -12,22 +15,26 @@ def load(filename):
         json_data=open(filename)
         data = json.load(json_data)
         json_data.close()
+        write_log(0, "Loaded Databasefile:")
         return data
     except IOError:
-        #If trying to load that does not exist, display error message
-        print("File does not exist :" + filename)
+        write_log(1,"Loaded Databasefile:")
+
 
 def get_project(db,id):
     """Fetches the project with the specified id from the specified list."""
     id = int(id)
     for x in range(get_project_count(db)):
         if db[x]['project_no'] == id:
+            write_log(0,"Fetched project id:")
             return db[x] 
+    write_log(2,"Fetched project id:")
     return None
 
 
 def get_project_count(db):
     """ Retrieves the number of projects in a project list."""
+    write_log(0,"Fetched number of projects:")
     return len(db)
 
 def get_fields(db):
@@ -35,13 +42,13 @@ def get_fields(db):
     returnList = []
     for i in range(get_project_count(db)):
         for a in db[i]:
-            if a.replace("_", " ") not in returnList:
-                returnList.append(a.replace("_", " "))
+            if a not in returnList:
+                returnList.append(a)
+    write_log(0,"Fetched all fields in database:")
     return returnList
 
 def search(db, sort_by=u'start_date',sort_order=u'desc',techniques=None,search=None,search_fields=None):
     """ Fetches and sorts projects matching criteria from the specified list."""
-
     #If search is filled with a value, unicode it so that special charachters works:
     if search != None:
         try:
@@ -73,7 +80,7 @@ def search(db, sort_by=u'start_date',sort_order=u'desc',techniques=None,search=N
         print("third")
         for x in range(proj_count):
             for z in search_fields:
-                if equalIgnoreCase(db[x][z],search):
+                if equalIgnoreCase(search,db[x][z]):
                     search_list.append(db[x])
 
     #If only search parameter is set
@@ -90,6 +97,8 @@ def search(db, sort_by=u'start_date',sort_order=u'desc',techniques=None,search=N
         search_list = sorted(search_list, key=lambda x: x[sort_by],reverse=True)
     elif sort_order == 'asc':
         search_list = sorted(search_list, key=lambda x: x[sort_by])
+    
+    write_log(0,"Searched database:")
     return search_list
 
 def equalIgnoreCase(a, b):
@@ -100,6 +109,7 @@ def equalIgnoreCase(a, b):
         b = str(b)
     except UnicodeEncodeError:
         pass
+
     #Try,except incase a or b is int
     try:
         if a.lower() in b.lower():
@@ -107,9 +117,13 @@ def equalIgnoreCase(a, b):
         else:
             return False
     except AttributeError:
-        if a in b:
-            return True
-        else:
+        try:
+            if a in b:
+                return True
+            return False
+        except TypeError:
+            if a == b:
+                return True
             return False
 
 def get_techniques(db):
@@ -120,6 +134,7 @@ def get_techniques(db):
             if b not in tech_list:
                 tech_list.append(b)
     tech_list.sort()
+    write_log(0,"Fetched all techniques:")
     return tech_list
 
 def get_technique_stats(db):
@@ -137,4 +152,13 @@ def get_technique_stats(db):
         tech_list = sorted(tech_list, key=lambda x: x['name'])
         tech_dict[_tech] = tech_list
         tech_list = []
+
+    write_log(0,"Fetched all techniques in the specified project:")
     return tech_dict
+
+def write_log(errorCode,message):
+    _errorMessage = ['OK','Could not access Database file.','Project ID does not exist.',]
+
+    log_file = open("log/log.txt","a")
+    log_file.write(message +" "+ _errorMessage[errorCode] + "\n")
+    log_file.close()

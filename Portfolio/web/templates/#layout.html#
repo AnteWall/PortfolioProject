@@ -40,11 +40,11 @@
 <div id="last_proj">
   <div id="last_proj_subject">Last Updated Projects</div>
   {% for projects in updatedPro %}
-  <p style="color: orange">{{ projects['project_name'] }} </p>
   <div class="last_proj_item">
-    <div>
-      <p>{{ projects['end_date'] }} </p>
-      <p>{{ projects['short_description'] }}
+    <div class="info">
+      <p class="project_name">{{ projects['project_name'] }} </p>
+      <p class="date">{{ projects['end_date'] }} </p>
+      <p class="short_desc">{{ projects['shorts_description'] }}
     </div>
   </div>
   {% endfor %}

@@ -14,34 +14,41 @@ def images(filename):
     with app.open_resource("web/images/" + filename) as f:
         return f.read()"""
 
+
 @app.route("/")
 def home_page():
     db = data.init()
-    return render_template("home.html", dataB = db)
+    sorted_list = data.search(db, sort_by="end_date")
+    x = 0
+    udb = []
+    for proj in sorted_list:
+        udb.append(proj)
+        x += 1
+        if x == 3:
+            break
+    return render_template("home.html", dataB = db, updatedPro = udb)
 
 @app.route("/list", methods=['GET', 'POST'])
 def list_page():
     db = data.init()
-    techniques = data.get_techniques(db)
     fields = data.get_fields(db)
-    tech_list = []
     if request.method == 'POST':
-        for i in data.get_techniques(db):
+        search_list = []
+        for x in data.get_fields(db):
             try:
-                if i == request.form["tech_"+i]:
-                    tech_list.append(i)
+                search_list.append(request.form[x])
             except:
                 pass
-            
+        if search_list == []:
+            search_list = None
         sort_order = request.form["sort_order"]
-        db = data.search(db, search=request.form["search"],sort_order=sort_order,techniques=tech_list)
+        db = data.search(db, search=request.form["search"],sort_order=sort_order, search_fields=search_list)
     return render_template("list.html",dataB = db, _fields = fields)
 
 @app.route("/techniques")
 def list_tech():
     db = data.init()
     techs = data.get_techniques(db)
-    print("#####################3"+str(techs))
     return render_template("list_techniques.html", techniques = techs,dataB = db  )
 
 
