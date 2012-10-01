@@ -19,6 +19,8 @@ body{
 h1{
     float:left;
     margin-left:50px;
+    color:orange;
+    margin-top:20px;
 }
 /* Header Styles */
 #header{
@@ -83,6 +85,16 @@ h1{
     margin:49px;
     margin-bottom:0;
     margin-top:20px;
+    height:210px;
+    background-color:#FFF;
+    border:1px solid #c7c7c7;
+}
+.item_tech{
+    float:left;
+    width:600px;
+    margin:49px;
+    margin-bottom:0;
+    margin-top:0;
     height:210px;
     background-color:#FFF;
     border:1px solid #c7c7c7;
@@ -224,7 +236,7 @@ fieldset#sort_by{
 }
 fieldset#sel_field{
     display: table-column;
-    width:320px;
+    float:right;
     margin-left:30px;
 }
 fieldset#tech{
@@ -279,11 +291,22 @@ input[type=submit]{
 fieldset#search{
     width:290px;
 }
+fieldset#button{
+    display:block;
+    width:40px;
+}
+fieldset#list_tech{
+    width:500px;
+}
 .multiselect {
     display: table-column;
     width:200px;
     height:130px;
     overflow:auto;
+}
+.multiselect2 {
+    float:left;
+    margin:26px 0 0 50px;
 }
  
 .multiselect label {

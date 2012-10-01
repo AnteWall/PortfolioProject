@@ -2,22 +2,14 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<link rel="stylesheet" type="text/css" href="{% block css_folder %}static/style.css{% endblock %}"/>
-
-    <!-- Use a JQuery ThemeRoller theme, in this case 'smoothness' -->
-    <!--<link rel="stylesheet" type="text/css" href="static/smoothness-1.8.13/jquery-ui-1.8.13.custom.css">-->
-    <!--<link rel="stylesheet" type="text/css" href="static/ui.dropdownchecklist.themeroller.css">-->
-     <link rel="stylesheet" type="text/css" href="static/ui.dropdownchecklist.standalone.css">
-    
-    <!-- Include the basic JQuery support (core and ui) -->
-    <script type="text/javascript" src="static/js/jquery-1.6.1.min.js"></script>
-    <script type="text/javascript" src="static/js/jquery-ui-1.8.13.custom.min.js"></script>
-    
-    <!-- Include the DropDownCheckList supoprt -->
-    <!-- <script type="text/javascript" src="ui.dropdownchecklist.js"></script> -->
-    <script type="text/javascript" src="static/js/ui.dropdownchecklist-1.4-min.js"></script>
-    <script src="static/js/script.js"></script>
-<title>Titel</title>
+{% block css_folder %}
+<link rel="stylesheet" type="text/css" href="static/style.css"/>
+{% endblock %}
+<script type="text/javascript" src="static/js/jquery-1.6.1.min.js"></script>
+<script src="static/js/script.js"></script>
+{% block title %}
+<title>Home</title>
+{% endblock %}
 </head>
 <body>
 <div id="header">
@@ -25,7 +17,6 @@
     <a href="/"><li>Home</li></a>
     <a href="/list"><li>List All Projects</li></a>
     <a href="/techniques"><li>List Techniques</li></a>
-    <a href="/contact"><li>Contact</li></a>
   </ul>
 </div>
 <div id="header_edge">
@@ -37,6 +28,7 @@
   {% block content %}
   {% endblock %}
   </div>
+{% block last_proj %}
 <div id="last_proj">
   <div id="last_proj_subject">Last Updated Projects</div>
   {% for projects in updatedPro %}
@@ -49,6 +41,7 @@
   </div>
   {% endfor %}
 </div>
+{% endblock %}
 </div>
 
 </body>

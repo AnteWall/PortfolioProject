@@ -1,14 +1,21 @@
 {% extends "layout.html" %}
+{% block title %}
+<title>List Techniques</title>
+{% endblock %}
 {% block content %}
 <!-- Advanced Search Field -->
 <div id="search_field">
-  <form action="" method="post">
-    <fieldset id="tech">
-      <select multiple="multiple">
-	{% for tech in techniques %}
-	<option value="_search_{{tech}}">{{tech}}</option>
+  <form action="" method="POST">
+    <fieldset id="list_tech">
+
+      <fieldset class="multiselect2">
+	{% for tech in all_tech %}
+	<label><input type="checkbox" name="{{tech}}" value="{{tech}}" />{{tech}}</label>
 	{% endfor %}
-      </select>
+      </fieldset>
+      <fieldset id="button">
+	<input type="submit" value="" name="submit"/>
+      </fieldset>
     </fieldset>
   </form>
 </div>
@@ -16,11 +23,11 @@
 
 
 <!-- Advanced Search Field Ends -->
-{% for tech in techniques %}
+{% for tech in selected_tech %}
 <h1>{{tech.capitalize()}}</h1>
 
 {% for projects in dataB if tech in projects['techniques_used']%}
-<div class="item">
+<div class="item_tech">
   <div class="info">
     <p class="project_name">{{ projects['project_name'] }} </p>
     <p class="date">{{ projects['end_date'] }}</p>
@@ -38,3 +45,4 @@
 {% endfor %}
 {% endblock %}
 
+{% block last_proj %}<div id="last_proj_hidden"> {% endblock %}

@@ -1,6 +1,7 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
-import json,unicodedata
+import json,unicodedata, time
+#import texttable as tt
 
 def init():
     db = load("our_data.json")
@@ -63,21 +64,18 @@ def search(db, sort_by=u'start_date',sort_order=u'desc',techniques=None,search=N
     
     #If nothing is set, display all project in database
     if (search == None or search == "") and techniques == None and search_fields == None:
-        print("first")
         for x in range(proj_count):
             search_list.append(db[x])
     #if searching by techniques
     elif techniques != None and (search == None or search == ""):
-        print("######################################")
         if search == None or search == "":
             for x in range(proj_count):
                 for tech in db[x]['techniques_used']:
-                    if tech == techniques[0]:
+                    if tech in techniques and not db[x] in search_list:
                         search_list.append(db[x])
     
 #if searching by search and with special search fields
     elif search != None and search_fields != None:
-        print("third")
         for x in range(proj_count):
             for z in search_fields:
                 if equalIgnoreCase(search,db[x][z]):
@@ -85,7 +83,6 @@ def search(db, sort_by=u'start_date',sort_order=u'desc',techniques=None,search=N
 
     #If only search parameter is set
     elif search != None:
-        print("last")
         for x in range(proj_count):
             for fields in db[x]:
                 if equalIgnoreCase(search,db[x][fields]):
@@ -157,8 +154,14 @@ def get_technique_stats(db):
     return tech_dict
 
 def write_log(errorCode,message):
+    from time import gmtime, strftime
+    strftime("%Y-%m-%d %H:%M:%S", gmtime())
     _errorMessage = ['OK','Could not access Database file.','Project ID does not exist.',]
-
-    log_file = open("log/log.txt","a")
-    log_file.write(message +" "+ _errorMessage[errorCode] + "\n")
+    
+    
+    log_file = open("log/log.txt","a+r")
+    #if log_file.read() == None:
+    print(log_file.read()+"    DEN ÄR TOOOOOOOOOOOOOOOOOOOOOOOOOOOOOM")
+    date = str(strftime("%Y-%m-%d %H:%M:%S", gmtime()))
+    log_file.write(date +"\t"*2 + _errorMessage[errorCode] + "\t" + message  + "\n")
     log_file.close()

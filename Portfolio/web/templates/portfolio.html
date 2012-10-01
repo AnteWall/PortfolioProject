@@ -1,6 +1,9 @@
 {% extends "layout.html" %}
 {% block css_folder %}
-../static/style.css
+<link rel="stylesheet" type="text/css" href="../static/style.css"/>
+{% endblock %}
+{% block title %}
+<title>Portfolio - {{ dataB['project_name'] }}</title>
 {% endblock %}
 {% block content %}
 

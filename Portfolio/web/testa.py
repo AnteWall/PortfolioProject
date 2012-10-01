@@ -45,11 +45,26 @@ def list_page():
         db = data.search(db, search=request.form["search"],sort_order=sort_order, search_fields=search_list)
     return render_template("list.html",dataB = db, _fields = fields)
 
-@app.route("/techniques")
+@app.route("/techniques", methods=['GET', 'POST'])
 def list_tech():
     db = data.init()
     techs = data.get_techniques(db)
-    return render_template("list_techniques.html", techniques = techs,dataB = db  )
+    all_techniques = techs
+    if request.method == 'POST':
+        tech_list = []
+        for x in all_techniques:
+            try:
+                if not request.form[x] in tech_list:
+                    tech_list.append(request.form[x])
+            except:
+                pass
+        if not tech_list == []:
+            db = data.search(db, techniques = tech_list)
+            techs = data.get_techniques(db)
+            import pprint
+            pprint.pprint(db)
+            return render_template("list_techniques.html", dataB = db, techniques = techs, all_tech = all_techniques, selected_tech = tech_list)
+    return render_template("list_techniques.html", dataB = db, techniques = techs, all_tech = all_techniques, selected_tech = techs)
 
 
 @app.route("/portfolio/<id>")

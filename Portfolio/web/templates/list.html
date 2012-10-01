@@ -1,4 +1,7 @@
 {% extends "layout.html" %}
+{% block title %}
+<title>List Projects</title>
+{% endblock %}
 {% block content %}
 <!-- Advanced Search Field -->
 <div id="search_field">
@@ -57,3 +60,4 @@
 {% endfor %}
 {% endblock %}
 
+{% block last_proj %}<div id="last_proj_hidden"> {% endblock %}
