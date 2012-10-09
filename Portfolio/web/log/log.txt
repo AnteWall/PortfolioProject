@@ -921,3 +921,711 @@
 2012-10-01 12:54:16		OK	Initiated databasefile:
 2012-10-01 12:54:16		OK	Fetched number of projects:
 2012-10-01 12:54:17		OK	Searched database:
+2012-10-09 08:30:01		OK	Loaded Databasefile:
+2012-10-09 08:30:01		OK	Initiated databasefile:
+2012-10-09 08:30:01		OK	Fetched number of projects:
+2012-10-09 08:30:01		OK	Searched database:
+2012-10-09 08:30:45		OK	Loaded Databasefile:
+2012-10-09 08:30:45		OK	Initiated databasefile:
+2012-10-09 08:30:45		OK	Fetched number of projects:
+2012-10-09 08:30:45		OK	Fetched all fields in database:
+2012-10-09 08:30:47		OK	Loaded Databasefile:
+2012-10-09 08:30:47		OK	Initiated databasefile:
+2012-10-09 08:30:47		OK	Fetched number of projects:
+2012-10-09 08:30:47		OK	Searched database:
+2012-10-09 08:30:48		OK	Loaded Databasefile:
+2012-10-09 08:30:48		OK	Initiated databasefile:
+2012-10-09 08:30:48		OK	Fetched number of projects:
+2012-10-09 08:30:48		OK	Fetched all fields in database:
+2012-10-09 08:30:55		OK	Loaded Databasefile:
+2012-10-09 08:30:55		OK	Initiated databasefile:
+2012-10-09 08:30:55		OK	Fetched number of projects:
+2012-10-09 08:30:55		OK	Fetched all techniques:
+2012-10-09 08:31:05		OK	Loaded Databasefile:
+2012-10-09 08:31:05		OK	Initiated databasefile:
+2012-10-09 08:31:05		OK	Fetched number of projects:
+2012-10-09 08:31:05		OK	Fetched all fields in database:
+2012-10-09 08:31:19		OK	Loaded Databasefile:
+2012-10-09 08:31:20		OK	Initiated databasefile:
+2012-10-09 08:31:20		OK	Fetched number of projects:
+2012-10-09 08:31:20		OK	Fetched all techniques:
+2012-10-09 08:31:22		OK	Loaded Databasefile:
+2012-10-09 08:31:22		OK	Initiated databasefile:
+2012-10-09 08:31:22		OK	Fetched number of projects:
+2012-10-09 08:31:22		OK	Fetched all techniques:
+2012-10-09 08:31:22		OK	Fetched number of projects:
+2012-10-09 08:31:22		OK	Searched database:
+2012-10-09 08:31:23		OK	Fetched number of projects:
+2012-10-09 08:31:23		OK	Fetched all techniques:
+2012-10-09 08:31:24		OK	Loaded Databasefile:
+2012-10-09 08:31:24		OK	Initiated databasefile:
+2012-10-09 08:31:25		OK	Fetched number of projects:
+2012-10-09 08:31:25		OK	Searched database:
+2012-10-09 08:31:27		OK	Loaded Databasefile:
+2012-10-09 08:31:27		OK	Initiated databasefile:
+2012-10-09 08:31:27		OK	Fetched number of projects:
+2012-10-09 08:31:27		OK	Fetched all fields in database:
+2012-10-09 08:31:37		OK	Loaded Databasefile:
+2012-10-09 08:31:37		OK	Initiated databasefile:
+2012-10-09 08:31:37		OK	Fetched number of projects:
+2012-10-09 08:31:38		OK	Fetched project id:
+2012-10-09 08:33:36		OK	Loaded Databasefile:
+2012-10-09 08:33:36		OK	Initiated databasefile:
+2012-10-09 08:33:37		OK	Fetched number of projects:
+2012-10-09 08:33:37		OK	Fetched project id:
+2012-10-09 08:35:56		OK	Loaded Databasefile:
+2012-10-09 08:35:56		OK	Initiated databasefile:
+2012-10-09 08:35:56		OK	Fetched number of projects:
+2012-10-09 08:35:56		OK	Searched database:
+2012-10-09 08:39:06		OK	Loaded Databasefile:
+2012-10-09 08:39:06		OK	Initiated databasefile:
+2012-10-09 08:39:06		OK	Fetched number of projects:
+2012-10-09 08:39:06		OK	Searched database:
+2012-10-09 08:43:59		OK	Loaded Databasefile:
+2012-10-09 08:43:59		OK	Initiated databasefile:
+2012-10-09 08:43:59		OK	Fetched number of projects:
+2012-10-09 08:43:59		OK	Searched database:
+2012-10-09 08:44:00		OK	Loaded Databasefile:
+2012-10-09 08:44:00		OK	Initiated databasefile:
+2012-10-09 08:44:00		OK	Fetched number of projects:
+2012-10-09 08:44:01		OK	Searched database:
+2012-10-09 08:45:15		OK	Loaded Databasefile:
+2012-10-09 08:45:15		OK	Initiated databasefile:
+2012-10-09 08:45:15		OK	Fetched number of projects:
+2012-10-09 08:45:15		OK	Searched database:
+2012-10-09 08:45:56		OK	Loaded Databasefile:
+2012-10-09 08:45:56		OK	Initiated databasefile:
+2012-10-09 08:45:56		OK	Fetched number of projects:
+2012-10-09 08:45:56		OK	Fetched project id:
+2012-10-09 08:46:04		OK	Loaded Databasefile:
+2012-10-09 08:46:04		OK	Initiated databasefile:
+2012-10-09 08:46:05		OK	Fetched number of projects:
+2012-10-09 08:46:05		OK	Fetched project id:
+2012-10-09 08:46:09		OK	Loaded Databasefile:
+2012-10-09 08:46:09		OK	Initiated databasefile:
+2012-10-09 08:46:10		OK	Fetched number of projects:
+2012-10-09 08:46:10		OK	Searched database:
+2012-10-09 08:46:36		OK	Loaded Databasefile:
+2012-10-09 08:46:36		OK	Initiated databasefile:
+2012-10-09 08:46:36		OK	Fetched number of projects:
+2012-10-09 08:46:36		OK	Searched database:
+2012-10-09 08:47:13		OK	Loaded Databasefile:
+2012-10-09 08:47:13		OK	Initiated databasefile:
+2012-10-09 08:47:13		OK	Fetched number of projects:
+2012-10-09 08:47:13		OK	Searched database:
+2012-10-09 08:47:14		OK	Loaded Databasefile:
+2012-10-09 08:47:14		OK	Initiated databasefile:
+2012-10-09 08:47:14		OK	Fetched number of projects:
+2012-10-09 08:47:14		OK	Searched database:
+2012-10-09 08:47:56		OK	Loaded Databasefile:
+2012-10-09 08:47:56		OK	Initiated databasefile:
+2012-10-09 08:47:56		OK	Fetched number of projects:
+2012-10-09 08:47:56		OK	Searched database:
+2012-10-09 08:49:02		OK	Loaded Databasefile:
+2012-10-09 08:49:02		OK	Initiated databasefile:
+2012-10-09 08:49:02		OK	Fetched number of projects:
+2012-10-09 08:49:02		OK	Searched database:
+2012-10-09 08:49:20		OK	Loaded Databasefile:
+2012-10-09 08:49:20		OK	Initiated databasefile:
+2012-10-09 08:49:20		OK	Fetched number of projects:
+2012-10-09 08:49:20		OK	Searched database:
+2012-10-09 08:49:22		OK	Loaded Databasefile:
+2012-10-09 08:49:23		OK	Initiated databasefile:
+2012-10-09 08:49:23		OK	Fetched number of projects:
+2012-10-09 08:49:23		OK	Fetched project id:
+2012-10-09 08:49:24		OK	Loaded Databasefile:
+2012-10-09 08:49:24		OK	Initiated databasefile:
+2012-10-09 08:49:25		OK	Fetched number of projects:
+2012-10-09 08:49:25		OK	Searched database:
+2012-10-09 08:49:25		OK	Loaded Databasefile:
+2012-10-09 08:49:25		OK	Initiated databasefile:
+2012-10-09 08:49:25		OK	Fetched number of projects:
+2012-10-09 08:49:25		OK	Searched database:
+2012-10-09 08:50:06		OK	Loaded Databasefile:
+2012-10-09 08:50:06		OK	Initiated databasefile:
+2012-10-09 08:50:06		OK	Fetched number of projects:
+2012-10-09 08:50:06		OK	Searched database:
+2012-10-09 08:50:07		OK	Loaded Databasefile:
+2012-10-09 08:50:07		OK	Initiated databasefile:
+2012-10-09 08:50:07		OK	Fetched number of projects:
+2012-10-09 08:50:07		OK	Fetched project id:
+2012-10-09 08:51:02		OK	Loaded Databasefile:
+2012-10-09 08:51:02		OK	Initiated databasefile:
+2012-10-09 08:51:02		OK	Fetched number of projects:
+2012-10-09 08:51:02		OK	Fetched project id:
+2012-10-09 08:55:06		OK	Loaded Databasefile:
+2012-10-09 08:55:06		OK	Initiated databasefile:
+2012-10-09 08:55:06		OK	Fetched number of projects:
+2012-10-09 08:55:06		OK	Fetched project id:
+2012-10-09 08:55:07		OK	Loaded Databasefile:
+2012-10-09 08:55:07		OK	Initiated databasefile:
+2012-10-09 08:55:07		OK	Fetched number of projects:
+2012-10-09 08:55:08		OK	Searched database:
+2012-10-09 08:55:19		OK	Loaded Databasefile:
+2012-10-09 08:55:19		OK	Initiated databasefile:
+2012-10-09 08:55:20		OK	Fetched number of projects:
+2012-10-09 08:55:20		OK	Searched database:
+2012-10-09 08:55:23		OK	Loaded Databasefile:
+2012-10-09 08:55:23		OK	Initiated databasefile:
+2012-10-09 08:55:23		OK	Fetched number of projects:
+2012-10-09 08:55:24		OK	Fetched project id:
+2012-10-09 08:55:41		OK	Loaded Databasefile:
+2012-10-09 08:55:41		OK	Initiated databasefile:
+2012-10-09 08:55:41		OK	Fetched number of projects:
+2012-10-09 08:55:42		OK	Fetched project id:
+2012-10-09 08:55:52		OK	Loaded Databasefile:
+2012-10-09 08:55:52		OK	Initiated databasefile:
+2012-10-09 08:55:52		OK	Fetched number of projects:
+2012-10-09 08:55:52		OK	Fetched project id:
+2012-10-09 08:56:48		OK	Loaded Databasefile:
+2012-10-09 08:56:48		OK	Initiated databasefile:
+2012-10-09 08:56:48		OK	Fetched number of projects:
+2012-10-09 08:56:48		OK	Fetched all fields in database:
+2012-10-09 08:59:11		OK	Loaded Databasefile:
+2012-10-09 08:59:11		OK	Initiated databasefile:
+2012-10-09 08:59:11		OK	Fetched number of projects:
+2012-10-09 08:59:11		OK	Fetched all fields in database:
+2012-10-09 09:03:35		OK	Loaded Databasefile:
+2012-10-09 09:03:36		OK	Initiated databasefile:
+2012-10-09 09:03:36		OK	Fetched number of projects:
+2012-10-09 09:03:36		OK	Fetched all fields in database:
+2012-10-09 09:04:34		OK	Loaded Databasefile:
+2012-10-09 09:04:35		OK	Initiated databasefile:
+2012-10-09 09:04:35		OK	Fetched number of projects:
+2012-10-09 09:04:35		OK	Fetched project id:
+2012-10-09 09:05:07		OK	Loaded Databasefile:
+2012-10-09 09:05:07		OK	Initiated databasefile:
+2012-10-09 09:05:07		OK	Fetched number of projects:
+2012-10-09 09:05:07		OK	Fetched all fields in database:
+2012-10-09 09:12:19		OK	Loaded Databasefile:
+2012-10-09 09:12:19		OK	Initiated databasefile:
+2012-10-09 09:12:20		OK	Fetched number of projects:
+2012-10-09 09:12:20		OK	Fetched all fields in database:
+2012-10-09 09:12:22		OK	Loaded Databasefile:
+2012-10-09 09:12:22		OK	Initiated databasefile:
+2012-10-09 09:12:22		OK	Fetched number of projects:
+2012-10-09 09:12:22		OK	Searched database:
+2012-10-09 09:12:36		OK	Loaded Databasefile:
+2012-10-09 09:12:36		OK	Initiated databasefile:
+2012-10-09 09:12:36		OK	Fetched number of projects:
+2012-10-09 09:12:36		OK	Searched database:
+2012-10-09 09:12:40		OK	Loaded Databasefile:
+2012-10-09 09:12:40		OK	Initiated databasefile:
+2012-10-09 09:12:40		OK	Fetched number of projects:
+2012-10-09 09:12:40		OK	Fetched all fields in database:
+2012-10-09 09:12:43		OK	Loaded Databasefile:
+2012-10-09 09:12:43		OK	Initiated databasefile:
+2012-10-09 09:12:43		OK	Fetched number of projects:
+2012-10-09 09:12:43		OK	Fetched all techniques:
+2012-10-09 09:12:46		OK	Loaded Databasefile:
+2012-10-09 09:12:46		OK	Initiated databasefile:
+2012-10-09 09:12:46		OK	Fetched number of projects:
+2012-10-09 09:12:46		OK	Fetched all techniques:
+2012-10-09 09:12:47		OK	Fetched number of projects:
+2012-10-09 09:12:47		OK	Searched database:
+2012-10-09 09:12:47		OK	Fetched number of projects:
+2012-10-09 09:12:47		OK	Fetched all techniques:
+2012-10-09 09:12:49		OK	Loaded Databasefile:
+2012-10-09 09:12:50		OK	Initiated databasefile:
+2012-10-09 09:12:50		OK	Fetched number of projects:
+2012-10-09 09:12:50		OK	Searched database:
+2012-10-09 09:13:23		OK	Loaded Databasefile:
+2012-10-09 09:13:23		OK	Initiated databasefile:
+2012-10-09 09:13:23		OK	Fetched number of projects:
+2012-10-09 09:13:23		OK	Searched database:
+2012-10-09 09:13:28		OK	Loaded Databasefile:
+2012-10-09 09:13:28		OK	Initiated databasefile:
+2012-10-09 09:13:29		OK	Fetched number of projects:
+2012-10-09 09:13:29		OK	Fetched all fields in database:
+2012-10-09 09:13:30		OK	Loaded Databasefile:
+2012-10-09 09:13:31		OK	Initiated databasefile:
+2012-10-09 09:13:31		OK	Fetched number of projects:
+2012-10-09 09:13:31		OK	Fetched all techniques:
+2012-10-09 09:14:13		OK	Loaded Databasefile:
+2012-10-09 09:14:13		OK	Initiated databasefile:
+2012-10-09 09:14:13		OK	Fetched number of projects:
+2012-10-09 09:14:13		OK	Fetched all techniques:
+2012-10-09 09:14:15		OK	Loaded Databasefile:
+2012-10-09 09:14:15		OK	Initiated databasefile:
+2012-10-09 09:14:15		OK	Fetched number of projects:
+2012-10-09 09:14:15		OK	Fetched all fields in database:
+2012-10-09 09:14:23		OK	Loaded Databasefile:
+2012-10-09 09:14:24		OK	Initiated databasefile:
+2012-10-09 09:14:24		OK	Fetched number of projects:
+2012-10-09 09:14:24		OK	Fetched all techniques:
+2012-10-09 09:16:16		OK	Loaded Databasefile:
+2012-10-09 09:16:16		OK	Initiated databasefile:
+2012-10-09 09:16:17		OK	Fetched number of projects:
+2012-10-09 09:16:17		OK	Fetched all techniques:
+2012-10-09 09:16:17		OK	Loaded Databasefile:
+2012-10-09 09:16:17		OK	Initiated databasefile:
+2012-10-09 09:16:17		OK	Fetched number of projects:
+2012-10-09 09:16:17		OK	Fetched project id:
+2012-10-09 09:16:17		OK	Loaded Databasefile:
+2012-10-09 09:16:17		OK	Initiated databasefile:
+2012-10-09 09:16:18		OK	Fetched number of projects:
+2012-10-09 09:16:18		OK	Fetched project id:
+2012-10-09 09:16:19		OK	Loaded Databasefile:
+2012-10-09 09:16:19		OK	Initiated databasefile:
+2012-10-09 09:16:19		OK	Fetched number of projects:
+2012-10-09 09:16:19		OK	Fetched all techniques:
+2012-10-09 09:16:19		OK	Loaded Databasefile:
+2012-10-09 09:16:19		OK	Initiated databasefile:
+2012-10-09 09:16:19		OK	Fetched number of projects:
+2012-10-09 09:16:20		OK	Fetched project id:
+2012-10-09 09:16:20		OK	Loaded Databasefile:
+2012-10-09 09:16:20		OK	Initiated databasefile:
+2012-10-09 09:16:20		OK	Fetched number of projects:
+2012-10-09 09:16:20		OK	Fetched project id:
+2012-10-09 09:16:42		OK	Loaded Databasefile:
+2012-10-09 09:16:42		OK	Initiated databasefile:
+2012-10-09 09:16:43		OK	Fetched number of projects:
+2012-10-09 09:16:43		OK	Fetched all techniques:
+2012-10-09 09:16:50		OK	Loaded Databasefile:
+2012-10-09 09:16:50		OK	Initiated databasefile:
+2012-10-09 09:16:50		OK	Fetched number of projects:
+2012-10-09 09:16:50		OK	Fetched all fields in database:
+2012-10-09 09:16:52		OK	Loaded Databasefile:
+2012-10-09 09:16:52		OK	Initiated databasefile:
+2012-10-09 09:16:52		OK	Fetched number of projects:
+2012-10-09 09:16:52		OK	Searched database:
+2012-10-09 09:16:55		OK	Loaded Databasefile:
+2012-10-09 09:16:55		OK	Initiated databasefile:
+2012-10-09 09:16:55		OK	Fetched number of projects:
+2012-10-09 09:16:55		OK	Fetched all fields in database:
+2012-10-09 09:16:56		OK	Loaded Databasefile:
+2012-10-09 09:16:56		OK	Initiated databasefile:
+2012-10-09 09:16:56		OK	Fetched number of projects:
+2012-10-09 09:16:56		OK	Searched database:
+2012-10-09 09:16:57		OK	Loaded Databasefile:
+2012-10-09 09:16:57		OK	Initiated databasefile:
+2012-10-09 09:16:57		OK	Fetched number of projects:
+2012-10-09 09:16:57		OK	Fetched all fields in database:
+2012-10-09 09:16:59		OK	Loaded Databasefile:
+2012-10-09 09:16:59		OK	Initiated databasefile:
+2012-10-09 09:16:59		OK	Fetched number of projects:
+2012-10-09 09:16:59		OK	Fetched all techniques:
+2012-10-09 09:17:09		OK	Loaded Databasefile:
+2012-10-09 09:17:09		OK	Initiated databasefile:
+2012-10-09 09:17:09		OK	Fetched number of projects:
+2012-10-09 09:17:09		OK	Fetched project id:
+2012-10-09 09:17:11		OK	Loaded Databasefile:
+2012-10-09 09:17:12		OK	Initiated databasefile:
+2012-10-09 09:17:12		OK	Fetched number of projects:
+2012-10-09 09:17:12		OK	Fetched all fields in database:
+2012-10-09 09:17:24		OK	Loaded Databasefile:
+2012-10-09 09:17:24		OK	Initiated databasefile:
+2012-10-09 09:17:24		OK	Fetched number of projects:
+2012-10-09 09:17:24		OK	Searched database:
+2012-10-09 09:17:26		OK	Loaded Databasefile:
+2012-10-09 09:17:27		OK	Initiated databasefile:
+2012-10-09 09:17:27		OK	Fetched number of projects:
+2012-10-09 09:17:27		OK	Fetched all fields in database:
+2012-10-09 09:17:33		OK	Loaded Databasefile:
+2012-10-09 09:17:33		OK	Initiated databasefile:
+2012-10-09 09:17:33		OK	Fetched number of projects:
+2012-10-09 09:17:33		OK	Fetched project id:
+2012-10-09 09:17:47		OK	Loaded Databasefile:
+2012-10-09 09:17:47		OK	Initiated databasefile:
+2012-10-09 09:17:47		OK	Fetched number of projects:
+2012-10-09 09:17:47		OK	Searched database:
+2012-10-09 09:18:38		OK	Loaded Databasefile:
+2012-10-09 09:18:38		OK	Initiated databasefile:
+2012-10-09 09:18:38		OK	Fetched number of projects:
+2012-10-09 09:18:38		OK	Fetched all fields in database:
+2012-10-09 09:18:39		OK	Loaded Databasefile:
+2012-10-09 09:18:39		OK	Initiated databasefile:
+2012-10-09 09:18:39		OK	Fetched number of projects:
+2012-10-09 09:18:39		OK	Fetched all techniques:
+2012-10-09 09:18:40		OK	Loaded Databasefile:
+2012-10-09 09:18:40		OK	Initiated databasefile:
+2012-10-09 09:18:40		OK	Fetched number of projects:
+2012-10-09 09:18:40		OK	Searched database:
+2012-10-09 10:36:25		OK	Loaded Databasefile:
+2012-10-09 10:36:25		OK	Initiated databasefile:
+2012-10-09 10:36:25		OK	Fetched number of projects:
+2012-10-09 10:36:26		OK	Fetched all fields in database:
+2012-10-09 10:36:31		OK	Loaded Databasefile:
+2012-10-09 10:36:31		OK	Initiated databasefile:
+2012-10-09 10:36:31		OK	Fetched number of projects:
+2012-10-09 10:36:31		OK	Fetched project id:
+2012-10-09 10:36:40		OK	Loaded Databasefile:
+2012-10-09 10:36:40		OK	Initiated databasefile:
+2012-10-09 10:36:40		OK	Fetched number of projects:
+2012-10-09 10:36:40		OK	Searched database:
+2012-10-09 10:36:41		OK	Loaded Databasefile:
+2012-10-09 10:36:41		OK	Initiated databasefile:
+2012-10-09 10:36:41		OK	Fetched number of projects:
+2012-10-09 10:36:41		OK	Fetched all techniques:
+2012-10-09 10:37:03		OK	Loaded Databasefile:
+2012-10-09 10:37:03		OK	Initiated databasefile:
+2012-10-09 10:37:03		OK	Fetched number of projects:
+2012-10-09 10:37:03		OK	Searched database:
+2012-10-09 10:37:07		OK	Loaded Databasefile:
+2012-10-09 10:37:07		OK	Initiated databasefile:
+2012-10-09 10:37:07		OK	Fetched number of projects:
+2012-10-09 10:37:07		OK	Fetched project id:
+2012-10-09 10:37:09		OK	Loaded Databasefile:
+2012-10-09 10:37:09		OK	Initiated databasefile:
+2012-10-09 10:37:09		OK	Fetched number of projects:
+2012-10-09 10:37:10		OK	Searched database:
+2012-10-09 10:37:12		OK	Loaded Databasefile:
+2012-10-09 10:37:12		OK	Initiated databasefile:
+2012-10-09 10:37:12		OK	Fetched number of projects:
+2012-10-09 10:37:12		OK	Fetched project id:
+2012-10-09 10:37:13		OK	Loaded Databasefile:
+2012-10-09 10:37:14		OK	Initiated databasefile:
+2012-10-09 10:37:14		OK	Fetched number of projects:
+2012-10-09 10:37:14		OK	Searched database:
+2012-10-09 10:46:36		OK	Loaded Databasefile:
+2012-10-09 10:46:36		OK	Initiated databasefile:
+2012-10-09 10:46:36		OK	Fetched number of projects:
+2012-10-09 10:46:36		OK	Fetched all fields in database:
+2012-10-09 10:46:37		OK	Loaded Databasefile:
+2012-10-09 10:46:38		OK	Initiated databasefile:
+2012-10-09 10:46:38		OK	Fetched number of projects:
+2012-10-09 10:46:38		OK	Fetched all techniques:
+2012-10-09 10:46:41		OK	Loaded Databasefile:
+2012-10-09 10:46:41		OK	Initiated databasefile:
+2012-10-09 10:46:41		OK	Fetched number of projects:
+2012-10-09 10:46:41		OK	Fetched project id:
+2012-10-09 10:46:44		OK	Loaded Databasefile:
+2012-10-09 10:46:44		OK	Initiated databasefile:
+2012-10-09 10:46:44		OK	Fetched number of projects:
+2012-10-09 10:46:44		OK	Fetched all fields in database:
+2012-10-09 10:46:49		OK	Loaded Databasefile:
+2012-10-09 10:46:49		OK	Initiated databasefile:
+2012-10-09 10:46:49		OK	Fetched number of projects:
+2012-10-09 10:46:49		OK	Fetched project id:
+2012-10-09 10:46:51		OK	Loaded Databasefile:
+2012-10-09 10:46:51		OK	Initiated databasefile:
+2012-10-09 10:46:51		OK	Fetched number of projects:
+2012-10-09 10:46:51		OK	Fetched all fields in database:
+2012-10-09 10:47:57		OK	Loaded Databasefile:
+2012-10-09 10:47:58		OK	Initiated databasefile:
+2012-10-09 10:47:58		OK	Fetched number of projects:
+2012-10-09 10:47:58		OK	Fetched all techniques:
+2012-10-09 10:48:27		OK	Loaded Databasefile:
+2012-10-09 10:48:27		OK	Initiated databasefile:
+2012-10-09 10:48:28		OK	Fetched number of projects:
+2012-10-09 10:48:28		OK	Fetched all techniques:
+2012-10-09 10:48:28		OK	Fetched number of projects:
+2012-10-09 10:48:28		OK	Searched database:
+2012-10-09 10:48:28		OK	Fetched number of projects:
+2012-10-09 10:48:28		OK	Fetched all techniques:
+2012-10-09 10:48:34		OK	Loaded Databasefile:
+2012-10-09 10:48:34		OK	Initiated databasefile:
+2012-10-09 10:48:34		OK	Fetched number of projects:
+2012-10-09 10:48:35		OK	Fetched all techniques:
+2012-10-09 10:48:35		OK	Fetched number of projects:
+2012-10-09 10:48:35		OK	Searched database:
+2012-10-09 10:48:35		OK	Fetched number of projects:
+2012-10-09 10:48:35		OK	Fetched all techniques:
+2012-10-09 10:48:37		OK	Loaded Databasefile:
+2012-10-09 10:48:38		OK	Initiated databasefile:
+2012-10-09 10:48:38		OK	Fetched number of projects:
+2012-10-09 10:48:38		OK	Fetched all techniques:
+2012-10-09 10:48:38		OK	Fetched number of projects:
+2012-10-09 10:48:38		OK	Searched database:
+2012-10-09 10:48:38		OK	Fetched number of projects:
+2012-10-09 10:48:38		OK	Fetched all techniques:
+2012-10-09 11:13:48		OK	Loaded Databasefile:
+2012-10-09 11:13:48		OK	Initiated databasefile:
+2012-10-09 11:13:48		OK	Fetched number of projects:
+2012-10-09 11:13:48		OK	Fetched all fields in database:
+2012-10-09 11:14:54		OK	Loaded Databasefile:
+2012-10-09 11:14:55		OK	Initiated databasefile:
+2012-10-09 11:14:55		OK	Fetched number of projects:
+2012-10-09 11:14:55		OK	Fetched project id:
+2012-10-09 11:14:59		OK	Loaded Databasefile:
+2012-10-09 11:15:00		OK	Initiated databasefile:
+2012-10-09 11:15:00		OK	Fetched number of projects:
+2012-10-09 11:15:00		OK	Fetched all techniques:
+2012-10-09 11:16:21		OK	Loaded Databasefile:
+2012-10-09 11:16:21		OK	Initiated databasefile:
+2012-10-09 11:16:21		OK	Fetched number of projects:
+2012-10-09 11:16:21		OK	Fetched all techniques:
+2012-10-09 11:16:24		OK	Loaded Databasefile:
+2012-10-09 11:16:24		OK	Initiated databasefile:
+2012-10-09 11:16:25		OK	Fetched number of projects:
+2012-10-09 11:16:25		OK	Searched database:
+2012-10-09 11:16:28		OK	Loaded Databasefile:
+2012-10-09 11:16:29		OK	Initiated databasefile:
+2012-10-09 11:16:29		OK	Fetched number of projects:
+2012-10-09 11:16:29		OK	Fetched project id:
+2012-10-09 11:19:40		OK	Loaded Databasefile:
+2012-10-09 11:19:40		OK	Initiated databasefile:
+2012-10-09 11:19:40		OK	Fetched number of projects:
+2012-10-09 11:19:40		OK	Fetched project id:
+2012-10-09 11:20:52		OK	Loaded Databasefile:
+2012-10-09 11:20:52		OK	Initiated databasefile:
+2012-10-09 11:20:52		OK	Fetched number of projects:
+2012-10-09 11:20:52		OK	Fetched project id:
+2012-10-09 11:21:08		OK	Loaded Databasefile:
+2012-10-09 11:21:08		OK	Initiated databasefile:
+2012-10-09 11:21:08		OK	Fetched number of projects:
+2012-10-09 11:21:08		OK	Fetched project id:
+2012-10-09 11:22:59		OK	Loaded Databasefile:
+2012-10-09 11:22:59		OK	Initiated databasefile:
+2012-10-09 11:22:59		OK	Fetched number of projects:
+2012-10-09 11:23:00		OK	Fetched project id:
+2012-10-09 11:23:00		OK	Loaded Databasefile:
+2012-10-09 11:23:01		OK	Initiated databasefile:
+2012-10-09 11:23:01		OK	Fetched number of projects:
+2012-10-09 11:23:01		OK	Fetched project id:
+2012-10-09 11:23:02		OK	Loaded Databasefile:
+2012-10-09 11:23:02		OK	Initiated databasefile:
+2012-10-09 11:23:02		OK	Fetched number of projects:
+2012-10-09 11:23:02		OK	Fetched all fields in database:
+2012-10-09 11:23:04		OK	Loaded Databasefile:
+2012-10-09 11:23:04		OK	Initiated databasefile:
+2012-10-09 11:23:05		OK	Fetched number of projects:
+2012-10-09 11:23:05		OK	Fetched project id:
+2012-10-09 11:23:08		OK	Loaded Databasefile:
+2012-10-09 11:23:08		OK	Initiated databasefile:
+2012-10-09 11:23:08		OK	Fetched number of projects:
+2012-10-09 11:23:08		OK	Fetched project id:
+2012-10-09 11:24:05		OK	Loaded Databasefile:
+2012-10-09 11:24:06		OK	Initiated databasefile:
+2012-10-09 11:24:06		OK	Fetched number of projects:
+2012-10-09 11:24:06		OK	Fetched project id:
+2012-10-09 11:24:07		OK	Loaded Databasefile:
+2012-10-09 11:24:08		OK	Initiated databasefile:
+2012-10-09 11:24:08		OK	Fetched number of projects:
+2012-10-09 11:24:08		OK	Fetched project id:
+2012-10-09 11:24:09		OK	Loaded Databasefile:
+2012-10-09 11:24:10		OK	Initiated databasefile:
+2012-10-09 11:24:10		OK	Fetched number of projects:
+2012-10-09 11:24:10		OK	Fetched project id:
+2012-10-09 11:24:11		OK	Loaded Databasefile:
+2012-10-09 11:24:11		OK	Initiated databasefile:
+2012-10-09 11:24:11		OK	Fetched number of projects:
+2012-10-09 11:24:11		OK	Fetched project id:
+2012-10-09 11:24:41		OK	Loaded Databasefile:
+2012-10-09 11:24:41		OK	Initiated databasefile:
+2012-10-09 11:24:41		OK	Fetched number of projects:
+2012-10-09 11:24:41		OK	Fetched project id:
+2012-10-09 11:24:42		OK	Loaded Databasefile:
+2012-10-09 11:24:42		OK	Initiated databasefile:
+2012-10-09 11:24:42		OK	Fetched number of projects:
+2012-10-09 11:24:42		OK	Fetched project id:
+2012-10-09 11:25:07		OK	Loaded Databasefile:
+2012-10-09 11:25:07		OK	Initiated databasefile:
+2012-10-09 11:25:07		OK	Fetched number of projects:
+2012-10-09 11:25:07		OK	Fetched project id:
+2012-10-09 11:25:55		OK	Loaded Databasefile:
+2012-10-09 11:25:56		OK	Initiated databasefile:
+2012-10-09 11:25:56		OK	Fetched number of projects:
+2012-10-09 11:25:56		OK	Fetched project id:
+2012-10-09 11:26:10		OK	Loaded Databasefile:
+2012-10-09 11:26:10		OK	Initiated databasefile:
+2012-10-09 11:26:11		OK	Fetched number of projects:
+2012-10-09 11:26:11		OK	Fetched project id:
+2012-10-09 11:26:11		OK	Loaded Databasefile:
+2012-10-09 11:26:11		OK	Initiated databasefile:
+2012-10-09 11:26:11		OK	Fetched number of projects:
+2012-10-09 11:26:12		OK	Fetched project id:
+2012-10-09 11:26:50		OK	Loaded Databasefile:
+2012-10-09 11:26:50		OK	Initiated databasefile:
+2012-10-09 11:26:50		OK	Fetched number of projects:
+2012-10-09 11:26:51		OK	Fetched project id:
+2012-10-09 11:27:34		OK	Loaded Databasefile:
+2012-10-09 11:27:34		OK	Initiated databasefile:
+2012-10-09 11:27:34		OK	Fetched number of projects:
+2012-10-09 11:27:34		OK	Fetched project id:
+2012-10-09 11:30:05		OK	Loaded Databasefile:
+2012-10-09 11:30:05		OK	Initiated databasefile:
+2012-10-09 11:30:05		OK	Fetched number of projects:
+2012-10-09 11:30:05		OK	Fetched all fields in database:
+2012-10-09 11:30:07		OK	Loaded Databasefile:
+2012-10-09 11:30:07		OK	Initiated databasefile:
+2012-10-09 11:30:07		OK	Fetched number of projects:
+2012-10-09 11:30:07		OK	Fetched project id:
+2012-10-09 11:30:12		OK	Loaded Databasefile:
+2012-10-09 11:30:12		OK	Initiated databasefile:
+2012-10-09 11:30:13		OK	Fetched number of projects:
+2012-10-09 11:30:13		OK	Fetched project id:
+2012-10-09 11:30:25		OK	Loaded Databasefile:
+2012-10-09 11:30:25		OK	Initiated databasefile:
+2012-10-09 11:30:25		OK	Fetched number of projects:
+2012-10-09 11:30:25		OK	Fetched project id:
+2012-10-09 11:30:28		OK	Loaded Databasefile:
+2012-10-09 11:30:28		OK	Initiated databasefile:
+2012-10-09 11:30:28		OK	Fetched number of projects:
+2012-10-09 11:30:28		OK	Fetched all fields in database:
+2012-10-09 11:30:30		OK	Loaded Databasefile:
+2012-10-09 11:30:30		OK	Initiated databasefile:
+2012-10-09 11:30:30		OK	Fetched number of projects:
+2012-10-09 11:30:31		OK	Fetched project id:
+2012-10-09 11:30:36		OK	Loaded Databasefile:
+2012-10-09 11:30:36		OK	Initiated databasefile:
+2012-10-09 11:30:36		OK	Fetched number of projects:
+2012-10-09 11:30:37		OK	Fetched project id:
+2012-10-09 11:30:37		OK	Loaded Databasefile:
+2012-10-09 11:30:37		OK	Initiated databasefile:
+2012-10-09 11:30:37		OK	Fetched number of projects:
+2012-10-09 11:30:37		OK	Fetched project id:
+2012-10-09 11:32:33		OK	Loaded Databasefile:
+2012-10-09 11:32:33		OK	Initiated databasefile:
+2012-10-09 11:32:33		OK	Fetched number of projects:
+2012-10-09 11:32:33		OK	Searched database:
+2012-10-09 11:32:40		OK	Loaded Databasefile:
+2012-10-09 11:32:40		OK	Initiated databasefile:
+2012-10-09 11:32:40		OK	Fetched number of projects:
+2012-10-09 11:32:40		OK	Searched database:
+2012-10-09 11:32:43		OK	Loaded Databasefile:
+2012-10-09 11:32:43		OK	Initiated databasefile:
+2012-10-09 11:32:44		OK	Fetched number of projects:
+2012-10-09 11:32:44		OK	Fetched all fields in database:
+2012-10-09 11:32:44		OK	Loaded Databasefile:
+2012-10-09 11:32:44		OK	Initiated databasefile:
+2012-10-09 11:32:44		OK	Fetched number of projects:
+2012-10-09 11:32:44		OK	Fetched all fields in database:
+2012-10-09 11:32:47		OK	Loaded Databasefile:
+2012-10-09 11:32:47		OK	Initiated databasefile:
+2012-10-09 11:32:48		OK	Fetched number of projects:
+2012-10-09 11:32:48		OK	Fetched project id:
+2012-10-09 11:33:05		OK	Loaded Databasefile:
+2012-10-09 11:33:05		OK	Initiated databasefile:
+2012-10-09 11:33:05		OK	Fetched number of projects:
+2012-10-09 11:33:05		OK	Fetched project id:
+2012-10-09 11:33:11		OK	Loaded Databasefile:
+2012-10-09 11:33:11		OK	Initiated databasefile:
+2012-10-09 11:33:11		OK	Fetched number of projects:
+2012-10-09 11:33:11		OK	Fetched all techniques:
+2012-10-09 11:33:21		OK	Loaded Databasefile:
+2012-10-09 11:33:21		OK	Initiated databasefile:
+2012-10-09 11:33:21		OK	Fetched number of projects:
+2012-10-09 11:33:22		OK	Searched database:
+2012-10-09 11:33:28		OK	Loaded Databasefile:
+2012-10-09 11:33:29		OK	Initiated databasefile:
+2012-10-09 11:33:29		OK	Fetched number of projects:
+2012-10-09 11:33:29		OK	Searched database:
+2012-10-09 11:33:42		OK	Loaded Databasefile:
+2012-10-09 11:33:42		OK	Initiated databasefile:
+2012-10-09 11:33:43		OK	Fetched number of projects:
+2012-10-09 11:33:43		OK	Fetched project id:
+2012-10-09 11:33:47		OK	Loaded Databasefile:
+2012-10-09 11:33:48		OK	Initiated databasefile:
+2012-10-09 11:33:48		OK	Fetched number of projects:
+2012-10-09 11:33:48		OK	Fetched project id:
+2012-10-09 11:33:56		OK	Loaded Databasefile:
+2012-10-09 11:33:56		OK	Initiated databasefile:
+2012-10-09 11:33:56		OK	Fetched number of projects:
+2012-10-09 11:33:56		OK	Fetched all techniques:
+2012-10-09 11:33:57		OK	Fetched number of projects:
+2012-10-09 11:33:57		OK	Searched database:
+2012-10-09 11:33:57		OK	Fetched number of projects:
+2012-10-09 11:33:57		OK	Fetched all techniques:
+2012-10-09 11:34:05		OK	Loaded Databasefile:
+2012-10-09 11:34:05		OK	Initiated databasefile:
+2012-10-09 11:34:05		OK	Fetched number of projects:
+2012-10-09 11:34:06		OK	Fetched all techniques:
+2012-10-09 11:34:06		OK	Fetched number of projects:
+2012-10-09 11:34:06		OK	Searched database:
+2012-10-09 11:34:06		OK	Fetched number of projects:
+2012-10-09 11:34:06		OK	Fetched all techniques:
+2012-10-09 11:34:40		OK	Loaded Databasefile:
+2012-10-09 11:34:41		OK	Initiated databasefile:
+2012-10-09 11:34:41		OK	Fetched number of projects:
+2012-10-09 11:34:41		OK	Searched database:
+2012-10-09 11:34:43		OK	Loaded Databasefile:
+2012-10-09 11:34:43		OK	Initiated databasefile:
+2012-10-09 11:34:43		OK	Fetched number of projects:
+2012-10-09 11:34:43		OK	Fetched project id:
+2012-10-09 11:34:47		OK	Loaded Databasefile:
+2012-10-09 11:34:47		OK	Initiated databasefile:
+2012-10-09 11:34:47		OK	Fetched number of projects:
+2012-10-09 11:34:47		OK	Fetched project id:
+2012-10-09 11:34:58		OK	Loaded Databasefile:
+2012-10-09 11:34:58		OK	Initiated databasefile:
+2012-10-09 11:34:58		OK	Fetched number of projects:
+2012-10-09 11:34:58		OK	Searched database:
+2012-10-09 11:34:59		OK	Loaded Databasefile:
+2012-10-09 11:34:59		OK	Initiated databasefile:
+2012-10-09 11:34:59		OK	Fetched number of projects:
+2012-10-09 11:34:59		OK	Fetched all fields in database:
+2012-10-09 11:35:13		OK	Loaded Databasefile:
+2012-10-09 11:35:13		OK	Initiated databasefile:
+2012-10-09 11:35:13		OK	Fetched number of projects:
+2012-10-09 11:35:13		OK	Fetched all fields in database:
+2012-10-09 11:35:14		OK	Fetched number of projects:
+2012-10-09 11:35:14		OK	Fetched all fields in database:
+2012-10-09 11:35:14		OK	Fetched number of projects:
+2012-10-09 11:35:14		OK	Searched database:
+2012-10-09 11:35:20		OK	Loaded Databasefile:
+2012-10-09 11:35:20		OK	Initiated databasefile:
+2012-10-09 11:35:21		OK	Fetched number of projects:
+2012-10-09 11:35:21		OK	Fetched all fields in database:
+2012-10-09 11:35:21		OK	Fetched number of projects:
+2012-10-09 11:35:21		OK	Fetched all fields in database:
+2012-10-09 11:35:21		OK	Fetched number of projects:
+2012-10-09 11:35:21		OK	Searched database:
+2012-10-09 11:35:33		OK	Loaded Databasefile:
+2012-10-09 11:35:33		OK	Initiated databasefile:
+2012-10-09 11:35:33		OK	Fetched number of projects:
+2012-10-09 11:35:33		OK	Fetched all fields in database:
+2012-10-09 11:35:33		OK	Fetched number of projects:
+2012-10-09 11:35:33		OK	Fetched all fields in database:
+2012-10-09 11:35:34		OK	Fetched number of projects:
+2012-10-09 11:35:34		OK	Searched database:
+2012-10-09 11:35:52		OK	Loaded Databasefile:
+2012-10-09 11:35:52		OK	Initiated databasefile:
+2012-10-09 11:35:52		OK	Fetched number of projects:
+2012-10-09 11:35:52		OK	Fetched all fields in database:
+2012-10-09 11:35:52		OK	Fetched number of projects:
+2012-10-09 11:35:52		OK	Fetched all fields in database:
+2012-10-09 11:35:52		OK	Fetched number of projects:
+2012-10-09 11:35:53		OK	Searched database:
+2012-10-09 11:36:12		OK	Loaded Databasefile:
+2012-10-09 11:36:12		OK	Initiated databasefile:
+2012-10-09 11:36:12		OK	Fetched number of projects:
+2012-10-09 11:36:12		OK	Fetched all fields in database:
+2012-10-09 11:36:13		OK	Fetched number of projects:
+2012-10-09 11:36:13		OK	Fetched all fields in database:
+2012-10-09 11:36:13		OK	Fetched number of projects:
+2012-10-09 11:36:13		OK	Searched database:
+2012-10-09 11:36:20		OK	Loaded Databasefile:
+2012-10-09 11:36:20		OK	Initiated databasefile:
+2012-10-09 11:36:20		OK	Fetched number of projects:
+2012-10-09 11:36:20		OK	Fetched all fields in database:
+2012-10-09 11:36:20		OK	Fetched number of projects:
+2012-10-09 11:36:21		OK	Fetched all fields in database:
+2012-10-09 11:36:21		OK	Fetched number of projects:
+2012-10-09 11:36:21		OK	Searched database:
+2012-10-09 11:36:26		OK	Loaded Databasefile:
+2012-10-09 11:36:26		OK	Initiated databasefile:
+2012-10-09 11:36:27		OK	Fetched number of projects:
+2012-10-09 11:36:27		OK	Fetched all techniques:
+2012-10-09 11:36:28		OK	Loaded Databasefile:
+2012-10-09 11:36:28		OK	Initiated databasefile:
+2012-10-09 11:36:28		OK	Fetched number of projects:
+2012-10-09 11:36:28		OK	Fetched all techniques:
+2012-10-09 11:36:32		OK	Loaded Databasefile:
+2012-10-09 11:36:33		OK	Initiated databasefile:
+2012-10-09 11:36:33		OK	Fetched number of projects:
+2012-10-09 11:36:33		OK	Fetched all techniques:
+2012-10-09 11:36:33		OK	Fetched number of projects:
+2012-10-09 11:36:33		OK	Searched database:
+2012-10-09 11:36:33		OK	Fetched number of projects:
+2012-10-09 11:36:34		OK	Fetched all techniques:
+2012-10-09 11:36:35		OK	Loaded Databasefile:
+2012-10-09 11:36:36		OK	Initiated databasefile:
+2012-10-09 11:36:36		OK	Fetched number of projects:
+2012-10-09 11:36:36		OK	Fetched all techniques:
+2012-10-09 12:05:25		OK	Loaded Databasefile:
+2012-10-09 12:05:25		OK	Initiated databasefile:
+2012-10-09 12:05:26		OK	Fetched number of projects:
+2012-10-09 12:05:26		OK	Searched database:
+2012-10-09 12:05:29		OK	Loaded Databasefile:
+2012-10-09 12:05:29		OK	Initiated databasefile:
+2012-10-09 12:05:29		OK	Fetched number of projects:
+2012-10-09 12:05:29		OK	Fetched all fields in database:
+2012-10-09 12:05:30		OK	Loaded Databasefile:
+2012-10-09 12:05:30		OK	Initiated databasefile:
+2012-10-09 12:05:30		OK	Fetched number of projects:
+2012-10-09 12:05:30		OK	Fetched all techniques:
+2012-10-09 12:05:33		OK	Loaded Databasefile:
+2012-10-09 12:05:33		OK	Initiated databasefile:
+2012-10-09 12:05:34		OK	Fetched number of projects:
+2012-10-09 12:05:34		OK	Searched database:

@@ -32,10 +32,10 @@
 <div id="last_proj">
   <div id="last_proj_subject">Last Updated Projects</div>
   {% for projects in updatedPro %}
-  <p style="color: orange">{{ projects['project_name'] }} </p>
+  <a href="portfolio/{{projects['project_no']}}"><p class="last_proj">{{ projects['project_name'] }} </p></a>
   <div class="last_proj_item">
     <div>
-      <p>{{ projects['end_date'] }} </p>
+      <a href="portfolio/{{projects['project_no']}}"<p>{{ projects['end_date'] }} </p>
       <p>{{ projects['short_description'] }}
     </div>
   </div>

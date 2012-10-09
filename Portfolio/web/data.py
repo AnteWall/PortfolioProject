@@ -161,7 +161,6 @@ def write_log(errorCode,message):
     
     log_file = open("log/log.txt","a+r")
     #if log_file.read() == None:
-    print(log_file.read()+"    DEN ÄR TOOOOOOOOOOOOOOOOOOOOOOOOOOOOOM")
     date = str(strftime("%Y-%m-%d %H:%M:%S", gmtime()))
     log_file.write(date +"\t"*2 + _errorMessage[errorCode] + "\t" + message  + "\n")
     log_file.close()

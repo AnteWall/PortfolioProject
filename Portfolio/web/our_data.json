@@ -1,80 +1,41 @@
 [
 {
     "start_date": "2012-09-27",
-    "short_description": "Ante! Det ante mig Ante! Det var mitt på dan, Dan!.",
-    "course_name": "Something we dont remember",
-    "long_description": "Ante! Det ante mig Ante! Det var mitt på dan, Dan!.",
+    "short_description": "Det är projektet gjorde vi under våran fritid!",
+    "course_name": "Eget Projekt",
+    "long_description": "Det är en hemsida tror vi, vi är inte helt säkra eftersom den inte finns. Men man vet ju aldrig vad som kan dyka upp här eller hur!", 
     "group_size": 2,
-    "academic_credits": "MVG!!! WOHO!",
-    "lulz_had": "to many, to many lol",
+    "academic_credits": "None",
     "external_link": "http://www.antewall.se",
-    "small_image": "this_image.png",
+    "small_image": "small.jpg",
     "techniques_used": [
       "python"
     ],
-    "project_name": "Operation - Martin",
-    "course_id": "TDP007",
+    "project_name": "Our own Project",
+    "course_id": "None",
     "end_date": "2012-10-06",
     "project_no": 1,
-    "big_image": "large_image.png"
+    "big_image": "large.jpg"
   },
   {
-    "start_date": "2009-09-05",
-    "short_description": "This project we made sometime when we were drunk.",
-    "course_name": "Something we dont remember",
-    "long_description": "This is the long description that just keeps on iterate itself, even thou its smell wierd and dosent really do anything.",
+    "start_date": "2012-09-05",
+    "short_description": "En portfolio som vi gjorde i vår första projektkurs på Universitetet.",
+    "course_name": "Projekt Portfolio",
+    "long_description": "Ett projekt som vi kan spara alla projekt som vi gör på våran linje Innovativ Programmering på Linköpings Universitet.",
     "group_size": 2,
-    "academic_credits": "MVG!!! WOHO!",
-    "lulz_had": "to many, to many lol",
-    "external_link": "http://www.antewall.se",
-    "small_image": "this_image.png",
-    "techniques_used": [
-      "python"
-    ],
-    "project_name": "Dantes Project",
-    "course_id": "TDP007",
-    "end_date": "2009-10-06",
-    "project_no": 1,
-    "big_image": "large_image.png"
-  },
-  {
-    "start_date": "2009-09-05",
-    "short_description": "This project is awsome, you should not check it out",
-    "course_name": "Something we do remember",
-    "long_description": "Martin This is the long description that just keeps on iterate itself, even thou its smell wierd and dosent really do anything.",
-    "group_size": 2,
-    "academic_credits": "IG+",
-    "lulz_had": "lolz was made",
-    "external_link": "http://www.fetpanda.se",
-    "small_image": "this_image2.png",
-    "techniques_used": [
-      "c++",
-      "PHP"
-    ],
-    "project_name": "Not Dantes Project",
-    "course_id": "TDP002",
-    "end_date": "2009-10-09",
-    "project_no": 2,
-    "big_image": "large_image2.png"
-  },
-{
-    "start_date": "2009-13-05",
-    "short_description": "Yolo.",
-    "course_name": "Something we dont remember",
-    "long_description": "YOOOOOOOOOOOOOLOOOOOOOOO",
-    "group_size": 2,
-    "academic_credits": "MVG!!! WOHO!",
-    "lulz_had": "to many, to many lol",
-    "external_link": "http://www.antewall.se",
-    "small_image": "this_image.png",
+    "academic_credits": "5",
+    "external_link": "http://127.0.0.1:5000",
+    "small_image": "small.jpg",
     "techniques_used": [
       "python",
-      "c++"
+      "Flask",
+      "Jinja2",
+      "JSON"
     ],
-    "project_name": "Dantes Project",
-    "course_id": "TDP007",
-    "end_date": "2009-10-06",
-    "project_no": 1,
-    "big_image": "large_image.png"
+    "project_name": "Portfolio - TDP003",
+    "course_id": "TDP003",
+    "end_date": "2012-10-16",
+    "project_no": 2,
+    "big_image": "large.jpg"
   }
 ]

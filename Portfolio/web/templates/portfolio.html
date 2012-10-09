@@ -14,10 +14,15 @@
     <p class="short_desc">{{ dataB['long_description'] }}</p>
   </div>
   <div class="info_footer">
-    <a class="download_now" href="/portfolio/id/download"><p>Download Now</p></a>
+    <a class="download_now" href="{{dataB['external_link']}}"><p>Visit/Download</p></a>
   </div>
 </div>
+<div class="large_image">
+  <img src="../static/images/project/{{dataB['project_no']  }}/{{ dataB['big_image'] }}"alt="" />
+</div>
 
+{% endblock %}
+{% block last_proj %}
 {% endblock %}
 
 

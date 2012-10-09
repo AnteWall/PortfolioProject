@@ -22,6 +22,14 @@ h1{
     color:orange;
     margin-top:20px;
 }
+#last_proj a{
+    text-decoration:none;
+    color:#000;
+}
+p.last_proj{
+    color:orange;
+    margin:5px;
+}
 /* Header Styles */
 #header{
     background-color:#2D2C2C;
@@ -316,4 +324,12 @@ fieldset#list_tech{
 .multiselect-on {
     color:#ffffff;
     background-color:#797979;
+}
+
+.large_image {
+    width:600px;
+    border:1px solid #cfcfcf;
+    height:400px;
+    margin: 49px;
+    float: left;
 }
