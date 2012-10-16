@@ -35,4 +35,4 @@ You should now see the following:
 In your webbrowser enter http://127.0.0.1:5000 and the webpage should appear
 
 Validation:
-If you want to validate the data.py file, run data_test.py in terminal (Not neccesary for the webpage to run)
+If you want to validate the data.py file, run data_test.py (Not neccesary for the webpage to run)

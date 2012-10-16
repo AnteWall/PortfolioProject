@@ -1,6 +1,7 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
 import json,unicodedata, time
+from time import gmtime, strftime
 #import texttable as tt
 
 def init():
@@ -132,7 +133,7 @@ def get_techniques(db):
                 tech_list.append(b)
     tech_list.sort()
     write_log(0,"Fetched all techniques:")
-    return tech_list
+    return tech_list/home/dan/Dropbox/Lab med Thaimat/TDP003/PortfolioProject/Portfolio/web
 
 def get_technique_stats(db):
     """Collects and returns statistics for all techniques in the specified project list."""
@@ -154,13 +155,14 @@ def get_technique_stats(db):
     return tech_dict
 
 def write_log(errorCode,message):
-    from time import gmtime, strftime
+    """ Writes errorCode and message to log file"""
     strftime("%Y-%m-%d %H:%M:%S", gmtime())
+    #ErrorCode 1  = OK ErrorCode 2 = Could not access Database File ErrorCode3  = Project ID does not exist
     _errorMessage = ['OK','Could not access Database file.','Project ID does not exist.',]
-    
-    
+    #Open Log file or creates one if it does not exist
     log_file = open("log/log.txt","a+r")
-    #if log_file.read() == None:
+    # Get Current time and date
     date = str(strftime("%Y-%m-%d %H:%M:%S", gmtime()))
+    #Write to file
     log_file.write(date +"\t"*2 + _errorMessage[errorCode] + "\t" + message  + "\n")
     log_file.close()
